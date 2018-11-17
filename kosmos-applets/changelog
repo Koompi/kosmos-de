@@ -1,0 +1,325 @@
+kosmos-applets (1.21.0-1) unstable; urgency=medium
+
+  * New upstream development release
+
+ -- Vlad Orlov <monsta@inbox.ru>  Tue, 09 Oct 2018 17:56:39 +0300
+
+kosmos-applets (1.20.2-1) unstable; urgency=medium
+
+  * New upstream bugfix release
+
+ -- Vlad Orlov <monsta@inbox.ru>  Wed, 30 May 2018 11:25:49 +0300
+
+kosmos-applets (1.20.1-1) unstable; urgency=medium
+
+  * New upstream bugfix release
+
+ -- Vlad Orlov <monsta@inbox.ru>  Tue, 27 Mar 2018 13:53:48 +0300
+
+kosmos-applets (1.20.0-1) unstable; urgency=medium
+
+  * New upstream release
+
+ -- Vlad Orlov <monsta@inbox.ru>  Wed, 07 Feb 2018 13:52:28 +0300
+
+kosmos-applets (1.19.0-1) unstable; urgency=medium
+
+  * New upstream development release
+
+ -- Vlad Orlov <monsta@inbox.ru>  Wed, 24 Jan 2018 11:47:28 +0300
+
+kosmos-applets (1.18.2-1) unstable; urgency=medium
+
+  * New upstream bugfix release
+
+ -- Vlad Orlov <monsta@inbox.ru>  Sat, 04 Nov 2017 22:00:58 +0300
+
+kosmos-applets (1.18.1-1) unstable; urgency=medium
+
+  * New upstream bugfix release
+
+ -- Vlad Orlov <monsta@inbox.ru>  Fri, 07 Apr 2017 11:57:40 +0300
+
+kosmos-applets (1.18.0-1) unstable; urgency=medium
+
+  * New upstream release
+
+ -- Vlad Orlov <monsta@inbox.ru>  Wed, 15 Mar 2017 15:48:02 +0300
+
+kosmos-applets (1.17.0-1) unstable; urgency=medium
+
+  * New upstream development release
+
+ -- Vlad Orlov <monsta@inbox.ru>  Thu, 01 Dec 2016 12:45:28 +0300
+
+kosmos-applets (1.16.0-1) unstable; urgency=medium
+
+  * New upstream release
+
+ -- Vlad Orlov <monsta@inbox.ru>  Thu, 22 Sep 2016 17:36:34 +0300
+
+kosmos-applets (1.15.2-1) unstable; urgency=medium
+
+  * New upstream development release
+
+ -- Vlad Orlov <monsta@inbox.ru>  Tue, 06 Sep 2016 16:51:43 +0300
+
+kosmos-applets (1.15.1-1) unstable; urgency=medium
+
+  * New upstream development release
+
+ -- Vlad Orlov <monsta@inbox.ru>  Mon, 01 Aug 2016 15:47:55 +0300
+
+kosmos-applets (1.15.0-1) unstable; urgency=medium
+
+  * New upstream development release
+
+ -- Vlad Orlov <monsta@inbox.ru>  Wed, 15 Jun 2016 10:49:53 +0300
+
+kosmos-applets (1.14.0-1) unstable; urgency=medium
+
+  * New upstream release
+
+ -- Vlad Orlov <monsta@inbox.ru>  Mon, 11 Apr 2016 11:30:37 +0300
+
+kosmos-applets (1.13.0-1) unstable; urgency=medium
+
+  * New upstream development release
+
+ -- Vlad Orlov <monsta@inbox.ru>  Tue, 16 Feb 2016 11:39:15 +0300
+
+kosmos-applets (1.12.1-1) unstable; urgency=medium
+
+  * New upstream bugfix release
+
+ -- Vlad Orlov <monsta@inbox.ru>  Mon, 07 Dec 2015 11:16:54 +0300
+
+kosmos-applets (1.12.0-1) unstable; urgency=medium
+
+  * New upstream release
+
+ -- Clement Lefebvre <root@linuxmint.com>  Tue, 03 Nov 2015 13:17:11 +0000
+
+kosmos-applets (1.11.0-1) unstable; urgency=medium
+
+  * New upstream development release
+
+ -- Vlad Orlov <monsta@inbox.ru>  Thu, 15 Oct 2015 16:58:02 +0300
+
+kosmos-applets (1.10.3-1) unstable; urgency=medium
+
+  * New upstream bugfix release
+
+ -- Vlad Orlov <monsta@inbox.ru>  Thu, 16 Jul 2015 12:25:23 +0300
+
+kosmos-applets (1.10.2-1) unstable; urgency=medium
+
+  * New upstream bugfix release
+
+ -- Vlad Orlov <monsta@inbox.ru>  Wed, 15 Jul 2015 17:41:26 +0300
+
+kosmos-applets (1.10.1-1) unstable; urgency=medium
+
+  * New upstream bugfix release
+
+ -- Vlad Orlov <monsta@inbox.ru>  Thu, 25 Jun 2015 18:16:08 +0300
+
+kosmos-applets (1.10.0-1) unstable; urgency=medium
+
+  * New upstream release
+
+ -- Vlad Orlov <monsta@inbox.ru>  Tue, 23 Jun 2015 17:01:26 +0300
+
+kosmos-applets (1.9.90-1) unstable; urgency=low
+
+  * New upstream release candidate
+
+ -- Stefano Karapetsas <stefano@karapetsas.com>  Sun, 05 Apr 2015 19:23:46 +0200
+
+kosmos-applets (1.9.1-1) unstable; urgency=medium
+
+  * New upstream development release
+
+ -- Stefano Karapetsas <stefano@karapetsas.com>  Thu, 22 Jan 2015 10:22:21 +0100
+
+kosmos-applets (1.9.0-1) unstable; urgency=low
+
+  * New upstream development release
+
+ -- Stefano Karapetsas <stefano@karapetsas.com>  Tue, 22 Apr 2014 16:11:07 +0200
+
+kosmos-applets (1.8.0-0) unstable; urgency=low
+
+  * New upstream release
+
+ -- Stefano Karapetsas <stefano@karapetsas.com>  Thu, 06 Mar 2014 23:24:48 +0100
+
+kosmos-applets (1.7.90-1) unstable; urgency=low
+
+  * New upstream development release
+
+ -- Stefano Karapetsas <stefano@karapetsas.com>  Wed, 19 Feb 2014 18:57:37 +0100
+
+kosmos-applets (1.7.0-1) unstable; urgency=low
+
+  * New upstream development release.
+
+ -- Stefano Karapetsas <stefano@karapetsas.com>  Mon, 20 Jan 2014 11:54:47 +0100
+
+kosmos-applets (1.6.1-1) unstable; urgency=low
+
+  * New upstream bugfix release.
+
+ -- Stefano Karapetsas <stefano@karapetsas.com>  Fri, 12 Apr 2013 00:04:10 +0200
+
+kosmos-applets (1.6.0-3) unstable; urgency=low
+
+  * Install missing /usr/share/MateConf/gsettings/ folder.
+
+ -- Stefano Karapetsas <stefano@karapetsas.com>  Sat, 06 Apr 2013 21:55:34 +0200
+
+kosmos-applets (1.6.0-2) unstable; urgency=low
+
+  * Add a patch to get cpufreq applet working.
+
+ -- Stefano Karapetsas <stefano@karapetsas.com>  Thu, 04 Apr 2013 14:00:45 +0200
+
+kosmos-applets (1.6.0-1) unstable; urgency=low
+
+  * New upstream release.
+
+ -- Stefano Karapetsas <stefano@karapetsas.com>  Mon, 01 Apr 2013 02:05:51 +0200
+
+kosmos-applets (1.5.2-1) unstable; urgency=low
+
+  * New upstream development release.
+  * Replace libkosmosnofiy-dev with libnotify-dev.
+
+ -- Stefano Karapetsas <stefano@karapetsas.com>  Sun, 10 Mar 2013 17:30:54 +0100
+
+kosmos-applets (1.5.1-1) unstable; urgency=low
+
+  * New upstream development release.
+    * Fixed weather units.
+    * Added kosmosconf-gsettings-data-convert-file
+    * Added gio-unix-2.0 to gio requirements
+
+ -- Steve Zesch <stevezesch2@gmail.com>  Sun, 20 Jan 2013 15:56:05 -0500
+
+kosmos-applets (1.5.0-2) unstable; urgency=low
+
+  * Add kosmos-applets-dbg package.
+
+ -- Stefano Karapetsas <stefano@karapetsas.com>  Mon, 14 Jan 2013 16:41:39 +0100
+
+kosmos-applets (1.5.0-1) unstable; urgency=low
+
+  * New upstream development release.
+  * Remove obsolete dependencies.
+  * Add gobject introspection dependencies.
+
+ -- Stefano Karapetsas <stefano@karapetsas.com>  Sun, 09 Dec 2012 12:30:41 +0100
+
+kosmos-applets (1.4.0-1) unstable; urgency=low
+
+  * New upstream release. 
+
+ -- Steve Zesch <stevezesch2@gmail.com>  Mon, 16 Jul 2012 11:51:38 -0400
+
+kosmos-applets (1.3.1-1) unstable; urgency=low
+
+  * New upstream development release.
+
+ -- Stefano Karapetsas <stefano@karapetsas.com>  Sun, 10 Jun 2012 23:14:05 +0200
+
+kosmos-applets (1.3.0-1) unstable; urgency=low
+
+  * New upstream development release.
+  * Move build-depends from libwnck to libkosmoswnck.
+
+ -- Stefano Karapetsas <stefano@karapetsas.com>  Sun, 10 Jun 2012 13:56:09 +0200
+
+kosmos-applets (1.2.3-1) unstable; urgency=low
+
+  * New upstream release.
+    - invest-applet now supports network-manager dbus api 0.9
+
+ -- Steve Zesch <stevezesch2@gmail.com>  Sat, 26 May 2012 13:40:27 -0400
+
+kosmos-applets (1.2.2-1) unstable; urgency=low
+
+  * New upstream bugfix release.
+  * battstat applet now has upower backend.
+
+ -- Steve Zesch <stevezesch2@gmail.com>  Mon, 23 Apr 2012 19:54:34 -0400
+
+kosmos-applets (1.2.1-1) unstable; urgency=low
+
+  * New upstream bugfix release.
+  * cpufreq applet now displays menu when clicked.
+
+ -- Steve Zesch <stevezesch2@gmail.com>  Fri, 20 Apr 2012 21:32:30 -0400
+
+kosmos-applets (1.2.0-2) unstable; urgency=low
+
+  * Rebuild for precise. 
+
+ -- Steve Zesch <stevezesch2@gmail.com>  Sun, 01 Apr 2012 21:34:41 -0400
+
+kosmos-applets (1.2.0-1) unstable; urgency=low
+
+  * New upstream release.
+
+ -- Stefano Karapetsas <stefano@karapetsas.com>  Sun, 11 Mar 2012 12:00:47 +0100
+
+kosmos-applets (1.1.3-1) unstable; urgency=low
+
+  * New upstream bugfix release.
+  * Add kosmosweather applet.
+
+ -- Stefano Karapetsas <stefano@karapetsas.com>  Fri, 27 Jan 2012 06:24:49 +0100
+
+kosmos-applets (1.1.2-1) unstable; urgency=low
+
+  * New upstream bugfix release.
+
+ -- Stefano Karapetsas <stefano@karapetsas.com>  Fri, 27 Jan 2012 01:29:03 +0100
+
+kosmos-applets (1.1.1-1) unstable; urgency=low
+
+  * New upstream release.
+  * Add kosmos-applets-common package.
+
+ -- Stefano Karapetsas <stefano@karapetsas.com>  Thu, 26 Jan 2012 00:25:30 +0100
+
+kosmos-applets (1.1.0-1) unstable; urgency=low
+
+  * New upstream release.
+
+ -- Stefano Karapetsas <stefano@karapetsas.com>  Mon, 12 Dec 2011 22:49:37 +0100
+
+kosmos-applets (1.0.6-1) unstable; urgency=low
+
+  * New upstream release.
+
+ -- Stefano Karapetsas <stefano@karapetsas.com>  Thu, 17 Nov 2011 16:51:57 +0100
+
+kosmos-applets (1.0.5-1) unstable; urgency=low
+
+  * New upstream release.
+  * Fixed conflict with gnome-applets.
+
+ -- Stefano Karapetsas <stefano@karapetsas.com>  Thu, 17 Nov 2011 02:04:12 +0100
+
+kosmos-applets (1.0.4-1) unstable; urgency=low
+
+  * New upstream release.
+  * Switch to ./autogen.sh instead of ./configure.
+
+ -- Stefano Karapetsas <stefano@karapetsas.com>  Tue, 15 Nov 2011 14:48:51 +0100
+
+kosmos-applets (1.0.2-1) unstable; urgency=low
+
+  * Initial release.
+
+ -- Stefano Karapetsas <stefano@karapetsas.com>  Tue, 08 Nov 2011 02:52:56 +0100

@@ -1,0 +1,71 @@
+Source: kosmos-screensaver
+Section: x11
+Priority: optional
+Maintainer: Debian+Ubuntu MATE Packaging Team <debian-kosmos@lists.debian.org>
+Uploaders: Mike Gabriel <sunweaver@debian.org>,
+           John Paul Adrian Glaubitz <glaubitz@physik.fu-berlin.de>,
+           Stefano Karapetsas <stefano@karapetsas.com>,
+           Vangelis Mouhtsis <vangelis@gnugr.org>,
+Build-Depends: debhelper (>= 10),
+               dpkg-dev (>= 1.16.1.1),
+               intltool,
+               libdbus-glib-1-dev,
+               libdconf-dev,
+               libgl1-mesa-dev | libgl1-mesa-swx11-dev,
+               libglib2.0-dev,
+               libgtk-3-dev,
+               libkosmos-desktop-dev (>= 1.20),
+               libkosmos-menu-dev (>= 1.21),
+               libkosmoskbd-dev (>= 1.20),
+               libnotify-dev,
+               libpam0g-dev,
+               libstartup-notification0-dev,
+               libsystemd-dev [linux-any],
+               libx11-dev,
+               libxext-dev,
+               libxss-dev,
+               libxt-dev,
+               libxxf86vm-dev,
+               kosmos-common (>= 1.20),
+               x11proto-scrnsaver-dev,
+               x11proto-xext-dev,
+               x11proto-xf86vidmode-dev,
+               xmlto,
+Standards-Version: 3.9.7
+Homepage: http://www.kramaos.org/
+Vcs-Browser: https://github.com/kosmos-desktop/debian-packages
+Vcs-Git: git://github.com/kosmos-desktop/debian-packages.git
+
+Package: kosmos-screensaver
+Architecture: any
+Depends: dbus-x11,
+         kosmos-desktop-common,
+         kosmos-screensaver-common (= ${source:Version}),
+         kosmos-session-manager (>= 1.11.0),
+         ${misc:Depends},
+         ${shlibs:Depends},
+Recommends: kosmos-power-manager,
+Suggests: rss-glx,
+          xscreensaver-data,
+Breaks: kosmos-screensaver-common (<< 1.9.0),
+Replaces: kosmos-screensaver-common (<< 1.9.0),
+Description: MATE screen saver and locker
+ kosmos-screensaver is a screen saver and locker that aims to have simple,
+ sane and secure defaults, and be well integrated with the MATE desktop.
+ .
+ It is designed to support, among other things:
+ .
+  * the ability to lock down configuration settings
+  * translation into other languages
+  * user switching
+
+Package: kosmos-screensaver-common
+Architecture: all
+Depends: ${misc:Depends},
+Breaks: kosmos-screensaver (<< 1.5.2),
+Description: MATE screen saver and locker (common files)
+ kosmos-screensaver is a screen saver and locker that aims to have simple,
+ sane and secure defaults, and be well integrated with the MATE desktop.
+ .
+ This package contains the architecture independent files.
+

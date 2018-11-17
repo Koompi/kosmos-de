@@ -1,0 +1,173 @@
+kosmos-terminal (1.21.0-1) unstable; urgency=medium
+
+  * New upstream development release
+
+ -- Vlad Orlov <monsta@inbox.ru>  Tue, 09 Oct 2018 17:56:41 +0300
+
+kosmos-terminal (1.20.1-1) unstable; urgency=medium
+
+  * New upstream bugfix release
+
+ -- Vlad Orlov <monsta@inbox.ru>  Sat, 23 Jun 2018 14:29:22 +0300
+
+kosmos-terminal (1.20.0-1) unstable; urgency=medium
+
+  * New upstream release
+
+ -- Vlad Orlov <monsta@inbox.ru>  Wed, 07 Feb 2018 13:52:32 +0300
+
+kosmos-terminal (1.19.0-1) unstable; urgency=medium
+
+  * New upstream development release
+
+ -- Vlad Orlov <monsta@inbox.ru>  Wed, 24 Jan 2018 11:47:32 +0300
+
+kosmos-terminal (1.18.2-1) unstable; urgency=medium
+
+  * New upstream bugfix release
+
+ -- Vlad Orlov <monsta@inbox.ru>  Wed, 08 Nov 2017 16:53:23 +0300
+
+kosmos-terminal (1.18.1-1) unstable; urgency=medium
+
+  * New upstream bugfix release
+
+ -- Vlad Orlov <monsta@inbox.ru>  Sat, 06 May 2017 12:15:40 +0300
+
+kosmos-terminal (1.18.0-1) unstable; urgency=medium
+
+  * New upstream release
+
+ -- Vlad Orlov <monsta@inbox.ru>  Wed, 15 Mar 2017 15:48:05 +0300
+
+kosmos-terminal (1.17.0-1) unstable; urgency=medium
+
+  * New upstream development release
+
+ -- Vlad Orlov <monsta@inbox.ru>  Sat, 10 Dec 2016 23:21:29 +0300
+
+kosmos-terminal (1.16.1-1) unstable; urgency=medium
+
+  * New upstream bugfix release
+
+ -- Vlad Orlov <monsta@inbox.ru>  Mon, 10 Oct 2016 17:54:24 +0300
+
+kosmos-terminal (1.16.0-1) unstable; urgency=medium
+
+  * New upstream release
+
+ -- Vlad Orlov <monsta@inbox.ru>  Thu, 22 Sep 2016 17:36:38 +0300
+
+kosmos-terminal (1.15.1-1) unstable; urgency=medium
+
+  * New upstream development release
+
+ -- Vlad Orlov <monsta@inbox.ru>  Mon, 25 Jul 2016 12:21:06 +0300
+
+kosmos-terminal (1.15.0-1) unstable; urgency=medium
+
+  * New upstream development release
+
+ -- Vlad Orlov <monsta@inbox.ru>  Wed, 15 Jun 2016 10:49:58 +0300
+
+kosmos-terminal (1.14.0-1) unstable; urgency=medium
+
+  * New upstream release
+
+ -- Vlad Orlov <monsta@inbox.ru>  Mon, 11 Apr 2016 11:30:41 +0300
+
+kosmos-terminal (1.13.2-1) unstable; urgency=medium
+
+  * New upstream development release
+
+ -- Vlad Orlov <monsta@inbox.ru>  Thu, 10 Mar 2016 11:43:05 +0300
+
+kosmos-terminal (1.13.1-1) unstable; urgency=medium
+
+  * New upstream development release
+
+ -- Vlad Orlov <monsta@inbox.ru>  Wed, 24 Feb 2016 14:02:29 +0300
+
+kosmos-terminal (1.13.0-1) unstable; urgency=medium
+
+  * New upstream development release
+
+ -- Vlad Orlov <monsta@inbox.ru>  Tue, 16 Feb 2016 11:39:20 +0300
+
+kosmos-terminal (1.12.1-1) unstable; urgency=medium
+
+  * New upstream bugfix release
+
+ -- Vlad Orlov <monsta@inbox.ru>  Mon, 07 Dec 2015 11:18:41 +0300
+
+kosmos-terminal (1.12.0-1) unstable; urgency=medium
+
+  * New upstream release
+
+ -- Clement Lefebvre <root@linuxmint.com>  Tue, 03 Nov 2015 13:21:16 +0000
+
+kosmos-terminal (1.11.0-1) unstable; urgency=medium
+
+  * New upstream development release
+
+ -- Vlad Orlov <monsta@inbox.ru>  Thu, 15 Oct 2015 17:02:39 +0300
+
+kosmos-terminal (1.10.1-1) unstable; urgency=medium
+
+  * New upstream bugfix release
+
+ -- Vlad Orlov <monsta@inbox.ru>  Mon, 13 Jul 2015 12:05:36 +0300
+
+kosmos-terminal (1.10.0-1) unstable; urgency=medium
+
+  * New upstream release
+
+ -- Vlad Orlov <monsta@inbox.ru>  Tue, 23 Jun 2015 17:11:11 +0300
+
+kosmos-terminal (1.9.90-1) unstable; urgency=low
+
+  * New upstream release candidate
+
+ -- Stefano Karapetsas <stefano@karapetsas.com>  Mon, 06 Apr 2015 10:54:55 +0200
+
+kosmos-terminal (1.9.1-1) unstable; urgency=medium
+
+  * New upstream development release
+
+ -- Stefano Karapetsas <stefano@karapetsas.com>  Thu, 22 Jan 2015 10:48:57 +0100
+
+kosmos-terminal (1.9.0-1) unstable; urgency=low
+
+  * New upstream development release
+
+ -- Stefano Karapetsas <stefano@karapetsas.com>  Tue, 22 Apr 2014 16:13:56 +0200
+
+kosmos-terminal (1.8.0-0) unstable; urgency=low
+
+  * New upstream release
+
+ -- Stefano Karapetsas <stefano@karapetsas.com>  Thu, 06 Mar 2014 23:25:55 +0100
+
+kosmos-terminal (1.7.90-1) unstable; urgency=low
+
+  * New upstream development release
+
+ -- Stefano Karapetsas <stefano@karapetsas.com>  Wed, 19 Feb 2014 19:02:22 +0100
+
+kosmos-terminal (1.7.2-1) unstable; urgency=low
+
+  * New upstream development release
+
+ -- Stefano Karapetsas <stefano@karapetsas.com>  Thu, 13 Feb 2014 22:38:07 +0100
+
+kosmos-terminal (1.7.1-1) unstable; urgency=low
+
+  * New upstream development release.
+
+ -- Stefano <stefano@karapetsas.com>  Thu, 16 Jan 2014 17:08:52 +0100
+
+kosmos-terminal (1.7.0-1) unstable; urgency=low
+
+  * New upstream release.
+
+ -- Stefano Karapetsas <stefano@karapetsas.com>  Tue, 05 Nov 2013 19:22:28 +0100

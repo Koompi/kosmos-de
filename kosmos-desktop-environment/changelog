@@ -1,0 +1,122 @@
+kosmos-desktop-environment (1.20.0) unstable; urgency=medium
+
+  * New upstream release
+
+ -- Vlad Orlov <monsta@inbox.ru>  Wed, 07 Feb 2018 13:56:17 +0300
+
+kosmos-desktop-environment (1.18.0) unstable; urgency=medium
+
+  * New upstream release
+
+ -- Vlad Orlov <monsta@inbox.ru>  Wed, 15 Mar 2017 15:49:08 +0300
+
+kosmos-desktop-environment (1.16.0) unstable; urgency=medium
+
+  * New upstream release
+
+ -- Vlad Orlov <monsta@inbox.ru>  Thu, 22 Sep 2016 17:36:35 +0300
+
+kosmos-desktop-environment (1.14.0) unstable; urgency=medium
+
+  * Update for MATE 1.14.
+
+ -- Martin Wimpress <code@flexion.org>  Mon, 23 May 2016 10:57:32 +0100
+
+kosmos-desktop-environment (1.12.0) unstable; urgency=medium
+
+  * New upstream release
+
+ -- Clement Lefebvre <root@linuxmint.com>  Tue, 03 Nov 2015 13:18:21 +0000
+
+kosmos-desktop-environment (1.10.0) unstable; urgency=medium
+
+  * New upstream release
+
+ -- Vlad Orlov <monsta@inbox.ru>  Tue, 23 Jun 2015 17:38:48 +0300
+
+kosmos-desktop-environment (1.8.0) unstable; urgency=medium
+
+  * New upstream release.
+
+ -- Stefano Karapetsas <stefano@karapetsas.com>  Mon, 17 Mar 2014 13:56:12 +0100
+
+kosmos-desktop-environment (1.7.0.1) unstable; urgency=low
+
+  * New upstream development release.
+  * Added metapackage with GSettings overrides for new MATE features.
+
+ -- Stefano Karapetsas <stefano@karapetsas.com>  Sat, 08 Feb 2014 22:20:25 +0100
+
+kosmos-desktop-environment (1.6.0.2) unstable; urgency=low
+
+  * Remove libraries from dependencies.
+
+ -- Stefano Karapetsas <stefano@karapetsas.com>  Wed, 03 Jul 2013 16:22:35 +0200
+
+kosmos-desktop-environment (1.6.0.1) unstable; urgency=low
+
+  * Add gvfs-bin as dependency of kosmos-core (for gvfs-open).
+  * Add ffmpegthumbnailer as dependency of kosmos-desktop-environment.
+  * Add dconf-tools as dependency of kosmos-desktop-environment-extra.
+  * Fix empty monospace font in Ubuntu GSettings overrides.
+  * Add kosmos-ffmpegthumbnailer.thumbnailer file to have video
+    thumbnails.
+
+ -- Stefano Karapetsas <stefano@karapetsas.com>  Thu, 04 Apr 2013 09:49:53 +0200
+
+kosmos-desktop-environment (1.6.0) unstable; urgency=low
+
+  * New upstream release.
+
+ -- Stefano Karapetsas <stefano@karapetsas.com>  Wed, 03 Apr 2013 00:34:14 +0200
+
+kosmos-desktop-environment (1.5.0) unstable; urgency=low
+
+  * Update for latest MATE development release.
+  * Add branding for distributions.
+
+ -- Stefano Karapetsas <stefano@karapetsas.com>  Sun, 17 Feb 2013 17:33:35 +0100
+
+kosmos-desktop-environment (1.4.0) unstable; urgency=low
+
+  * New upstream release. 
+
+ -- Steve Zesch <stevezesch2@gmail.com>  Wed, 18 Jul 2012 15:39:20 -0400
+
+kosmos-desktop-environment (1.3.0) unstable; urgency=low
+
+  * kosmos-core: reverted dep to kosmos-keyring only.
+  * kosmos-desktop-environment: add dep on kosmos-bluetooth.
+
+ -- Stefano Karapetsas <stefano@karapetsas.com>  Tue, 22 May 2012 17:09:58 +0200
+
+kosmos-desktop-environment (1.2.2) unstable; urgency=low
+
+  * Rebuild for precise. 
+
+ -- Steve Zesch <stevezesch2@gmail.com>  Sun, 01 Apr 2012 22:38:12 -0400
+
+kosmos-desktop-environment (1.2.1) unstable; urgency=low
+
+  * Install gnome-keyring by default instead of kosmos-keyring.
+  * Add mozo to kosmos-desktop-environment package.
+
+ -- Stefano Karapetsas <stefano@karapetsas.com>  Thu, 22 Mar 2012 15:05:54 +0100
+
+kosmos-desktop-environment (1.2.0) unstable; urgency=low
+
+  * New release.
+
+ -- Stefano Karapetsas <stefano@karapetsas.com>  Sat, 10 Mar 2012 18:30:33 +0100
+
+kosmos-desktop-environment (1.1.0) unstable; urgency=low
+
+  * New upstream release.
+
+ -- Stefano Karapetsas <stefano@karapetsas.com>  Wed, 14 Dec 2011 01:33:23 +0100
+
+kosmos-desktop-environment (1.0.0) unstable; urgency=low
+
+  * Initial release.
+
+ -- Stefano Karapetsas <stefano@karapetsas.com>  Tue, 22 Nov 2011 20:09:20 +0100

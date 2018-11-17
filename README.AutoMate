@@ -1,0 +1,47 @@
+Short guide to build packages in AutoMate
+=========================================
+
+Build source package
+--------------------
+
+Enter in the package folder.
+
+    $ cd kosmos-terminal/
+
+If needed, add an entry to changelog.
+Add ~devX to the version if it's a development build.
+
+    $ dch -i
+
+Get the orig tarball:
+
+    $ debian/rules get-orig-source
+
+Or, if it's a devel build, just archive your source and rename it as
+follow (be sure to remove .git folder from tarball, to reduce size):
+
+    kosmos-terminal_1.2.1.orig.tar.xz
+
+Build the source package:
+
+    $ debuild -S -sa
+
+Send package to AutoMate server
+-------------------------------
+
+Add those lines to your ~/.dput.cf
+
+[autokosmos]
+fqdn = autokosmos.kramaos.org
+method = ftp
+login = anonymous
+incoming = /upload/
+
+Send package with dput:
+
+    $ dput autokosmos kosmos-terminal_1.2.1-1_source.changes
+
+You should receive an email if the package is accepted and verified.
+
+To follow the build process and check logs, go to
+http://autokosmos.kramaos.org/

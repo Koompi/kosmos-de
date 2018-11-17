@@ -1,0 +1,32 @@
+Source: kosmos-user-guide
+Section: doc
+Priority: optional
+Maintainer: Debian+Ubuntu MATE Packaging Team <debian-kosmos@lists.debian.org>
+Uploaders: John Paul Adrian Glaubitz <glaubitz@physik.fu-berlin.de>,
+           Stefano Karapetsas <stefano@karapetsas.com>,
+           Mike Gabriel <sunweaver@debian.org>,
+           Vangelis Mouhtsis <vangelis@gnugr.org>,
+           Martin Wimpress <code@flexion.org>,
+Build-Depends: debhelper (>= 10),
+               gettext,
+               intltool,
+               libglib2.0-dev,
+               kosmos-common (>= 1.20),
+               yelp-tools,
+Standards-Version: 3.9.7
+Homepage: http://www.kramaos.org/
+Vcs-Browser: https://github.com/kosmos-desktop/debian-packages
+Vcs-Git: git://github.com/kosmos-desktop/debian-packages.git
+
+Package: kosmos-user-guide
+Architecture: all
+Depends: yelp,
+         ${misc:Depends},
+Suggests: kosmos-desktop-environment,
+Description: User documentation for MATE Desktop Environment
+ The MATE Desktop Environment is the continuation of GNOME 2. It provides an
+ intuitive and attractive desktop environment using traditional metaphors for
+ Linux and other Unix-like operating systems.
+ .
+ This package contains the user guide for MATE Desktop Environment and
+ its main applications.

@@ -1,0 +1,162 @@
+Source: kosmos-desktop-environment
+Section: x11
+Priority: optional
+Maintainer: Debian+Ubuntu MATE Packaging Team <debian-kosmos@lists.debian.org>
+Uploaders: Mike Gabriel <sunweaver@debian.org>,
+           John Paul Adrian Glaubitz <glaubitz@physik.fu-berlin.de>,
+           Stefano Karapetsas <stefano@karapetsas.com>,
+           Vangelis Mouhtsis <vangelis@gnugr.org>,
+Build-Depends: debhelper (>= 10),
+               lsb-release,
+Standards-Version: 3.9.7
+Homepage: http://www.kramaos.org/
+Vcs-Browser: https://github.com/kosmos-desktop/debian-packages
+Vcs-Git: git://github.com/kosmos-desktop/debian-packages.git
+
+Package: kosmos-desktop-environment-core
+Architecture: all
+Depends: caja (>= 1.20),
+         gvfs-backends,
+         marco (>= 1.20),
+         kosmos-backgrounds (>= 1.20),
+         kosmos-control-center (>= 1.20),
+         kosmos-desktop (>= 1.20),
+         kosmos-icon-theme (>= 1.20),
+         kosmos-menus (>= 1.20),
+         kosmos-notification-daemon (>= 1.20) | notification-daemon,
+         kosmos-panel (>= 1.20),
+         kosmos-polkit (>= 1.20),
+         kosmos-session-manager (>= 1.20),
+         kosmos-settings-daemon (>= 1.20),
+         kosmos-terminal (>= 1.20),
+         kosmos-themes (>= 3.22),
+         ${misc:Depends},
+Breaks: kosmos-desktop-environment (<< 1.8.0),
+Conflicts: kosmos-conf,
+           kosmos-conf-editor,
+           kosmos-dialogs,
+           kosmos-dialogs-common,
+           kosmos-dialogs-dbg,
+           kosmos-doc-utils,
+           kosmos-doc-utils-gnome,
+           kosmos-keyring,
+           kosmos-gnome-main-menu-applet,
+Replaces: kosmos-conf (<< 1.8.0),
+          kosmos-conf-editor (<< 1.8.0),
+          kosmos-dialogs (<< 1.8.0),
+          kosmos-dialogs-common (<< 1.8.0),
+          kosmos-dialogs-dbg (<< 1.8.0),
+          kosmos-doc-utils (<< 1.8.0),
+          kosmos-doc-utils-gnome (<< 1.8.0),
+          kosmos-keyring (<< 1.8.0),
+          kosmos-gnome-main-menu-applet (<< 1.9.0),
+Description: MATE Desktop Environment (essential components, metapackage)
+ The MATE Desktop Environment is the continuation of GNOME 2. It provides an
+ intuitive and attractive desktop environment using traditional metaphors for
+ Linux and other Unix-like operating systems.
+ .
+ MATE is under active development to add support for new technologies while
+ preserving a traditional desktop experience.
+ .
+ This package depends on a very basic set of programs that are necessary to
+ start a MATE desktop environment session. The set of programs includes the
+ MATE window manager (Marco), the MATE file manager (Caja), the MATE
+ control center and a limited set of other obligatory MATE desktop components.
+
+Package: kosmos-core
+Architecture: all
+Depends: kosmos-desktop-environment-core (= ${binary:Version}),
+         ${misc:Depends},
+Description: MATE Desktop Environment (essential components, dummy package)
+ The MATE Desktop Environment is the continuation of GNOME 2. It provides an
+ intuitive and attractive desktop environment using traditional metaphors for
+ Linux and other Unix-like operating systems.
+ .
+ MATE is under active development to add support for new technologies while
+ preserving a traditional desktop experience.
+ .
+ This package (kosmos-core) is a dummy package and can be safely removed.
+
+Package: kosmos-desktop-environment
+Architecture: all
+Depends: kosmos-desktop-environment-core (= ${binary:Version}),
+         ${misc:Depends},
+Provides: kosmos,
+Recommends: atril (>= 1.20),
+            desktop-base | ubuntu-wallpapers,
+            engrampa (>= 1.20),
+            eom (>= 1.20),
+            ffmpegthumbnailer,
+            kosmos-calc (>= 1.20),
+            kosmos-applets (>= 1.20),
+            kosmos-icon-theme-faenza (>= 1.20),
+            kosmos-media (>= 1.20),
+            kosmos-notification-daemon (>= 1.20),
+            kosmos-power-manager (>= 1.20),
+            kosmos-screensaver (>= 1.20),
+            kosmos-system-monitor (>= 1.20),
+            kosmos-user-guide (>= 1.20),
+            kosmos-utils (>= 1.20),
+            pluma (>= 1.20),
+Suggests: mail-reader | thunderbird,
+          network-manager-gnome,
+          x-www-browser | firefox,
+Description: MATE Desktop Environment (metapackage)
+ The MATE Desktop Environment is the continuation of GNOME 2. It provides an
+ intuitive and attractive desktop environment using traditional metaphors for
+ Linux and other Unix-like operating systems.
+ .
+ MATE is under active development to add support for new technologies while
+ preserving a traditional desktop experience.
+ .
+ This package installs the standard set of applications that are
+ part of the official MATE release.
+ .
+ It also suggests a few non-MATE standard desktop applications like an
+ internet browser, a mail reader and a network management applet.
+
+Package: kosmos-desktop-environment-extras
+Architecture: all
+Provides: kosmos-extras,
+Depends: kosmos-desktop-environment (= ${binary:Version}),
+         ${misc:Depends},
+Recommends: blueman,
+            caja-gksu (>= 1.20),
+            caja-image-converter (>= 1.20),
+            caja-open-terminal (>= 1.20),
+            caja-sendto (>= 1.20),
+            caja-share (>= 1.20),
+            caja-wallpaper (>= 1.20),
+            dconf-editor,
+            gnome-keyring,
+            kosmos-sensors-applet (>= 1.20),
+            kosmos-user-share (>= 1.20),
+            mozo (>= 1.20),
+            yelp,
+Suggests: kosmos-netbook (>= 1.20),
+          kosmos-user-guide,
+Description: MATE Desktop Environment (extra components, metapackage)
+ The MATE Desktop Environment is the continuation of GNOME 2. It provides an
+ intuitive and attractive desktop environment using traditional metaphors for
+ Linux and other Unix-like operating systems.
+ .
+ MATE is under active development to add support for new technologies while
+ preserving a traditional desktop experience.
+ .
+ This package installs an extra set of MATE components that are
+ also part of the official MATE release.
+
+Package: kosmos-desktop-environment-extra
+Architecture: all
+Depends: kosmos-desktop-environment-extras (= ${binary:Version}),
+         ${misc:Depends},
+Description: MATE Desktop Environment (extra components, dummy package)
+ The MATE Desktop Environment is the continuation of GNOME 2. It provides an
+ intuitive and attractive desktop environment using traditional metaphors for
+ Linux and other Unix-like operating systems.
+ .
+ MATE is under active development to add support for new technologies while
+ preserving a traditional desktop experience.
+ .
+ This package (kosmos-desktop-environment-extra) is a dummy package and can be
+ safely removed.

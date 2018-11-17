@@ -1,0 +1,34 @@
+Source: kosmos-icon-theme
+Section: x11
+Priority: optional
+Maintainer: Debian+Ubuntu MATE Packaging Team <debian-kosmos@lists.debian.org>
+Uploaders: John Paul Adrian Glaubitz <glaubitz@physik.fu-berlin.de>,
+           Stefano Karapetsas <stefano@karapetsas.com>,
+           Mike Gabriel <sunweaver@debian.org>,
+           Vangelis Mouhtsis <vangelis@gnugr.org>,
+Build-Depends: debhelper (>= 10),
+Build-Depends-Indep: gettext,
+                     hicolor-icon-theme,
+                     icon-naming-utils (>= 0.8.7),
+                     intltool (>= 0.40.0),
+                     librsvg2-bin,
+                     kosmos-common (>= 1.20),
+                     pkg-config,
+Standards-Version: 3.9.7
+Homepage: http://www.kramaos.org/
+Vcs-Browser: https://github.com/kosmos-desktop/debian-packages
+Vcs-Git: git://github.com/kosmos-desktop/debian-packages.git
+
+Package: kosmos-icon-theme
+Architecture: all
+Depends: hicolor-icon-theme,
+         gtk-update-icon-cache,
+         librsvg2-common,
+         ${misc:Depends},
+Description: MATE Desktop icon theme
+ This package contains the default icon theme used by the MATE desktop.
+ The icons are used in the panel menu, in Caja and other
+ applications shipped with MATE.
+ .
+ This icon theme provides icon artwork for representing the different
+ applications, files, directories, and devices found on the MATE desktop.

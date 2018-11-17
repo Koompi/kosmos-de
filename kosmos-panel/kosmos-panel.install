@@ -1,0 +1,10 @@
+usr/bin/
+usr/lib/kosmos-panel/clock-applet
+usr/lib/kosmos-panel/fish-applet
+usr/lib/kosmos-panel/notification-area-applet
+usr/lib/kosmos-panel/wnck-applet
+usr/share/applications/
+usr/share/dbus-1/
+usr/share/glib-2.0/
+usr/share/man/
+usr/share/kosmos-panel/

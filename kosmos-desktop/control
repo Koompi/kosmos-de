@@ -1,0 +1,161 @@
+Source: kosmos-desktop
+Section: x11
+Priority: optional
+Maintainer: Debian+Ubuntu MATE Packaging Team <debian-kosmos@lists.debian.org>
+Uploaders: John Paul Adrian Glaubitz <glaubitz@physik.fu-berlin.de>,
+           Stefano Karapetsas <stefano@karapetsas.com>,
+           Mike Gabriel <sunweaver@debian.org>,
+           Vangelis Mouhtsis <vangelis@gnugr.org>,
+           Martin Wimpress <code@flexion.org>,
+Build-Depends: debhelper (>= 10),
+               dpkg-dev (>= 1.16.1.1),
+               gobject-introspection,
+               gtk-doc-tools,
+               intltool,
+               libdconf-dev (>= 0.13.4),
+               libgirepository1.0-dev,
+               libglib2.0-dev,
+               libglib2.0-doc,
+               libgtk-3-dev,
+               libgtk-3-doc,
+               libstartup-notification0-dev,
+               libx11-dev,
+               libxml2-dev,
+               libxrandr-dev,
+               kosmos-common (>= 1.20),
+Standards-Version: 3.9.7
+Homepage: http://www.kramaos.org/
+Vcs-Browser: https://github.com/kosmos-desktop/debian-packages
+Vcs-Git: git://github.com/kosmos-desktop/debian-packages.git
+
+Package: kosmos-desktop
+Architecture: any
+Multi-Arch: foreign
+Depends: hicolor-icon-theme,
+         libkosmos-desktop-2-17,
+         kosmos-desktop-common (= ${source:Version}),
+         ${misc:Depends},
+         ${shlibs:Depends},
+Recommends: kosmos-user-guide,
+Breaks: kosmos-desktop-gnome,
+Replaces: kosmos-desktop-gnome,
+Description: Library with common API for various MATE modules
+ The MATE component kosmos-desktop contains the libkosmos-desktop library, the
+ kosmos-about program, as well as some desktop-wide documents.
+ .
+ The libkosmos-desktop library provides an API shared by several applications
+ on the desktop, but that cannot live in the platform for various
+ reasons.
+ .
+ The kosmos-about program helps with finding which version of MATE is installed.
+
+Package: kosmos-desktop-common
+Architecture: all
+Depends: ${misc:Depends},
+Breaks: kosmos-desktop (<< 1.1.1-1),
+        kosmos-settings-daemon (<< 1.20.0),
+Replaces: kosmos-desktop (<< 1.1.1-1),
+Description: Library with common API for various MATE modules (common files)
+ The MATE component kosmos-desktop contains the libkosmos-desktop library, the
+ kosmos-about program, as well as some desktop-wide documents.
+ .
+ The libkosmos-desktop library provides an API shared by several applications
+ on the desktop, but that cannot live in the platform for various
+ reasons.
+ .
+ This package contains the architecture-independent files.
+
+Package: libkosmos-desktop-2-17
+Section: libs
+Architecture: any
+Multi-Arch: same
+Pre-Depends: ${misc:Pre-Depends},
+Depends: ${misc:Depends},
+         ${shlibs:Depends},
+Provides: libkosmosdesktop,
+Breaks: libkosmosdesktop (<< 1.6.1),
+Replaces: libkosmosdesktop (<< 1.6.1),
+Description: Library with common API for various MATE modules (library)
+ The MATE component kosmos-desktop contains the libkosmos-desktop library, the
+ kosmos-about program, as well as some desktop-wide documents.
+ .
+ The libkosmos-desktop library provides an API shared by several applications
+ on the desktop, but that cannot live in the platform for various
+ reasons.
+ .
+ The package contains the actual kosmos-desktop library.
+
+Package: libkosmos-desktop-dev
+Section: libdevel
+Architecture: any
+Multi-Arch: same
+Depends: libdconf-dev,
+         libgdk-pixbuf2.0-dev,
+         libgtk-3-dev,
+         libkosmos-desktop-2-17 (= ${binary:Version}),
+         libstartup-notification0-dev,
+         gir1.2-kosmosdesktop-2.0 (= ${binary:Version}),
+         ${misc:Depends},
+         ${shlibs:Depends},
+Breaks: libkosmosdesktop-dev,
+        gir1.2-kosmos-desktop (<< 1.20.1-1~),
+Replaces: libkosmosdesktop-dev,
+          gir1.2-kosmos-desktop (<< 1.20.1-1~),
+Description: Library with common API for various MATE modules (development files)
+ The MATE component kosmos-desktop contains the libkosmos-desktop library, the
+ kosmos-about program, as well as some desktop-wide documents.
+ .
+ The libkosmos-desktop library provides an API shared by several applications
+ on the desktop, but that cannot live in the platform for various
+ reasons.
+ .
+ This package contains the kosmos-desktop development files.
+
+Package: libkosmos-desktop-doc
+Section: doc
+Architecture: all
+Multi-Arch: foreign
+Depends: ${misc:Depends},
+Breaks: libkosmosdesktop-doc,
+Replaces: libkosmosdesktop-doc,
+Description: Library with common API for various MATE modules (documentation files)
+ The MATE component kosmos-desktop contains the libkosmos-desktop library, the
+ kosmos-about program, as well as some desktop-wide documents.
+ .
+ The libkosmos-desktop library provides an API shared by several applications
+ on the desktop, but that cannot live in the platform for various
+ reasons.
+ .
+ This package contains the documentation files.
+
+Package: gir1.2-kosmosdesktop-2.0
+Section: introspection
+Architecture: any
+Multi-Arch: same
+Depends: libkosmos-desktop-2-17 (= ${binary:Version}),
+         ${gir:Depends},
+         ${misc:Depends},
+         ${shlibs:Depends},
+Breaks: gir1.2-kosmos-desktop (<< 1.20.1-1~),
+Replaces: gir1.2-kosmos-desktop (<< 1.20.1-1~),
+Description: GObject introspection data for the libkosmos-desktop library
+ The MATE component kosmos-desktop contains the libkosmos-desktop library, the
+ kosmos-about program, as well as some desktop-wide documents.
+ .
+ The libkosmos-desktop library provides an API shared by several applications
+ on the desktop, but that cannot live in the platform for various
+ reasons.
+ .
+ This package contains introspection data for the library.
+ .
+ It can be used by packages using the GIRepository format to generate
+ dynamic bindings.
+
+Package: gir1.2-kosmos-desktop
+Section: oldlibs
+Architecture: any
+Depends: ${misc:Depends},
+         gir1.2-kosmosdesktop-2.0 (= ${binary:Version}),
+Description: GObject introspection data for libkosmos-desktop (transitional package)
+ This package is a transitional package to gir1.2-kosmosdesktop-2.0. The package
+ can be safely removed.

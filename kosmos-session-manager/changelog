@@ -1,0 +1,167 @@
+kosmos-session-manager (1.21.0-1) unstable; urgency=medium
+
+  * New upstream development release
+
+ -- Vlad Orlov <monsta@inbox.ru>  Tue, 09 Oct 2018 17:56:41 +0300
+
+kosmos-session-manager (1.20.1-1) unstable; urgency=medium
+
+  * New upstream bugfix release
+
+ -- Vlad Orlov <monsta@inbox.ru>  Sat, 23 Jun 2018 14:28:47 +0300
+
+kosmos-session-manager (1.20.0-1) unstable; urgency=medium
+
+  * New upstream release
+
+ -- Vlad Orlov <monsta@inbox.ru>  Wed, 07 Feb 2018 13:52:31 +0300
+
+kosmos-session-manager (1.19.0-1) unstable; urgency=medium
+
+  * New upstream development release
+
+ -- Vlad Orlov <monsta@inbox.ru>  Wed, 24 Jan 2018 11:47:32 +0300
+
+kosmos-session-manager (1.18.2-1) unstable; urgency=medium
+
+  * New upstream bugfix release
+
+ -- Vlad Orlov <monsta@inbox.ru>  Fri, 27 Oct 2017 15:00:30 +0300
+
+kosmos-session-manager (1.18.1-1) unstable; urgency=medium
+
+  * New upstream bugfix release
+
+ -- Vlad Orlov <monsta@inbox.ru>  Fri, 28 Jul 2017 12:30:47 +0300
+
+kosmos-session-manager (1.18.0-1) unstable; urgency=medium
+
+  * New upstream release
+
+ -- Vlad Orlov <monsta@inbox.ru>  Wed, 15 Mar 2017 15:48:05 +0300
+
+kosmos-session-manager (1.17.1-1) unstable; urgency=medium
+
+  * New upstream development release
+
+ -- Vlad Orlov <monsta@inbox.ru>  Fri, 20 Jan 2017 12:33:16 +0300
+
+kosmos-session-manager (1.17.0-1) unstable; urgency=medium
+
+  * New upstream development release
+
+ -- Vlad Orlov <monsta@inbox.ru>  Sat, 07 Jan 2017 14:53:29 +0300
+
+kosmos-session-manager (1.16.0-1) unstable; urgency=medium
+
+  * New upstream release
+
+ -- Vlad Orlov <monsta@inbox.ru>  Thu, 22 Sep 2016 17:36:38 +0300
+
+kosmos-session-manager (1.15.0-1) unstable; urgency=medium
+
+  * New upstream development release
+
+ -- Vlad Orlov <monsta@inbox.ru>  Wed, 15 Jun 2016 10:49:57 +0300
+
+kosmos-session-manager (1.14.0-1) unstable; urgency=medium
+
+  * New upstream release
+
+ -- Vlad Orlov <monsta@inbox.ru>  Mon, 11 Apr 2016 11:30:41 +0300
+
+kosmos-session-manager (1.13.0-1) unstable; urgency=medium
+
+  * New upstream development release
+
+ -- Vlad Orlov <monsta@inbox.ru>  Tue, 16 Feb 2016 11:39:19 +0300
+
+kosmos-session-manager (1.12.1-1) unstable; urgency=medium
+
+  * New upstream bugfix release
+
+ -- Vlad Orlov <monsta@inbox.ru>  Mon, 07 Dec 2015 11:18:08 +0300
+
+kosmos-session-manager (1.12.0-1) unstable; urgency=medium
+
+  * New upstream release
+
+ -- Clement Lefebvre <root@linuxmint.com>  Tue, 03 Nov 2015 13:20:46 +0000
+
+kosmos-session-manager (1.11.0-1) unstable; urgency=medium
+
+  * New upstream development release
+
+ -- Vlad Orlov <monsta@inbox.ru>  Thu, 15 Oct 2015 17:01:24 +0300
+
+kosmos-session-manager (1.10.2-1) unstable; urgency=medium
+
+  * New upstream bugfix release
+
+ -- Vlad Orlov <monsta@inbox.ru>  Mon, 13 Jul 2015 17:21:43 +0300
+
+kosmos-session-manager (1.10.1-1) unstable; urgency=medium
+
+  * New upstream bugfix release
+
+ -- Vlad Orlov <monsta@inbox.ru>  Thu, 25 Jun 2015 12:39:17 +0300
+
+kosmos-session-manager (1.10.0-1) unstable; urgency=medium
+
+  * New upstream release
+
+ -- Vlad Orlov <monsta@inbox.ru>  Tue, 23 Jun 2015 17:10:41 +0300
+
+kosmos-session-manager (1.9.90-1) unstable; urgency=low
+
+  * New upstream release candidate
+
+ -- Stefano Karapetsas <stefano@karapetsas.com>  Wed, 25 Feb 2015 23:44:55 +0100
+
+kosmos-session-manager (1.9.3-1) unstable; urgency=low
+
+  * New upstream development release
+
+ -- Stefano Karapetsas <stefano@karapetsas.com>  Tue, 20 Jan 2015 19:35:50 +0100
+
+kosmos-session-manager (1.9.2-1) unstable; urgency=medium
+
+  * New upstream development release
+
+ -- Stefano Karapetsas <stefano@karapetsas.com>  Mon, 10 Nov 2014 11:05:39 +0100
+
+kosmos-session-manager (1.9.0-1) unstable; urgency=low
+
+  * New upstream development release
+
+ -- Stefano Karapetsas <stefano@karapetsas.com>  Sat, 22 Mar 2014 15:51:28 +0100
+
+kosmos-session-manager (1.8.0-0) unstable; urgency=low
+
+  * New upstream release
+
+ -- Stefano Karapetsas <stefano@karapetsas.com>  Wed, 05 Mar 2014 21:33:26 +0100
+
+kosmos-session-manager (1.7.90-2) unstable; urgency=medium
+
+  * Add systemd support.
+
+ -- Stefano Karapetsas <stefano@karapetsas.com>  Thu, 27 Feb 2014 20:13:01 +0100
+
+kosmos-session-manager (1.7.90-1) unstable; urgency=low
+
+  * New upstream development release
+
+ -- Stefano Karapetsas <stefano@karapetsas.com>  Tue, 18 Feb 2014 20:34:27 +0100
+
+kosmos-session-manager (1.7.2-1) unstable; urgency=low
+
+  * New upstream development release.
+
+ -- Stefano Karapetsas <stefano@karapetsas.com>  Thu, 13 Feb 2014 10:43:39 +0100
+
+kosmos-session-manager (1.7.0-1) unstable; urgency=low
+
+  * New upstream development release.
+
+ -- Stefano Karapetsas <stefano@karapetsas.com>  Sun, 20 Oct 2013 12:51:19 +0200

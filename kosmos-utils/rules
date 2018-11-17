@@ -1,0 +1,30 @@
+#!/usr/bin/make -f
+
+DHFLAGS=--parallel
+
+export DEB_BUILD_MAINT_OPTIONS = hardening=+all
+DPKG_EXPORT_BUILDFLAGS = 1
+include /usr/share/dpkg/buildflags.mk
+
+%:
+	dh $@ $(DHFLAGS)
+
+override_dh_install:
+	rm -rfv debian/tmp/usr/lib/*/*.a
+	rm -rfv debian/tmp/usr/lib/*/*.la
+	dh_install --fail-missing
+
+override_dh_auto_configure:
+	NOCONFIGURE=1 ./autogen.sh
+	dh_auto_configure $(DHFLAGS) -- \
+		--libexecdir=/usr/lib/kosmos-utils \
+		--disable-silent-rules \
+		--disable-static \
+		--disable-maintainer-flags
+
+override_dh_strip:
+	dh_strip -pkosmos-utils --dbgsym-migration='kosmos-utils-dbg (<< 1.20.0-1~)'
+	dh_strip -plibkosmosdict6 --dbgsym-migration='libkosmosdict6-dbg (<< 1.20.0-1~)'
+
+get-orig-source:
+	uscan --noconf --force-download --rename --download-current-version --destdir=..

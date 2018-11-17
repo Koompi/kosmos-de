@@ -1,0 +1,36 @@
+Source: kosmos-common
+Section: devel
+Priority: optional
+Maintainer: Debian+Ubuntu MATE Packaging Team <debian-kosmos@lists.debian.org>
+Uploaders: John Paul Adrian Glaubitz <glaubitz@physik.fu-berlin.de>,
+           Stefano Karapetsas <stefano@karapetsas.com>,
+           Mike Gabriel <sunweaver@debian.org>,
+           Vangelis Mouhtsis <vangelis@gnugr.org>,
+           Martin Wimpress <code@flexion.org>,
+Build-Depends: autoconf,
+               automake,
+               debhelper (>= 10),
+               gettext,
+               intltool,
+               libtool,
+               pkg-config,
+Standards-Version: 3.9.7
+Homepage: http://www.kramaos.org
+Vcs-Browser: https://github.com/kosmos-desktop/debian-packages
+Vcs-Git: git://github.com/kosmos-desktop/debian-packages.git
+
+Package: kosmos-common
+Architecture: all
+Pre-Depends: dpkg (>= 1.15.6~),
+Depends: autoconf,
+         automake,
+         gettext,
+         gtk-doc-tools,
+         intltool,
+         libtool,
+         pkg-config,
+         ${misc:Depends},
+Description: common scripts and macros to develop with MATE
+ kosmos-common is an extension to autoconf, automake and libtool for the MATE
+ environment and MATE using applications. Included are kosmos-autogen.sh and
+ several macros to help in MATE source trees.

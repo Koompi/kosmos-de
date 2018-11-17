@@ -1,0 +1,4 @@
+# kosmos-sensor-applet plugins erroneously trigger debhelper's makeshlibs script
+kosmos-sensors-applet: pkg-has-shlibs-control-file-but-no-actual-shared-libs
+kosmos-sensors-applet: postinst-has-useless-call-to-ldconfig
+kosmos-sensors-applet: postrm-has-useless-call-to-ldconfig

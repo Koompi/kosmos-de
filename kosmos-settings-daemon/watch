@@ -1,0 +1,3 @@
+version=3
+https://git.kramaos.org/kosmos-settings-daemon/ \
+    snapshot/kosmos-settings-daemon-(\d\.(?:[0-9]+|)[0-9]\.\d)\.tar\.xz

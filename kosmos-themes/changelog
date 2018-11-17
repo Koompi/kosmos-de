@@ -1,0 +1,188 @@
+kosmos-themes (3.22.18-1) unstable; urgency=medium
+
+  * New upstream release
+
+ -- Vlad Orlov <monsta@inbox.ru>  Thu, 23 Aug 2018 12:11:13 +0300
+
+kosmos-themes (3.22.17-1) unstable; urgency=medium
+
+  * New upstream release
+
+ -- Vlad Orlov <monsta@inbox.ru>  Mon, 04 Jun 2018 12:10:53 +0300
+
+kosmos-themes (3.22.16-1) unstable; urgency=medium
+
+  * New upstream release
+
+ -- Vlad Orlov <monsta@inbox.ru>  Sat, 31 Mar 2018 13:56:23 +0300
+
+kosmos-themes (3.22.15-1) unstable; urgency=medium
+
+  * New upstream release
+
+ -- Vlad Orlov <monsta@inbox.ru>  Wed, 07 Feb 2018 13:47:34 +0300
+
+kosmos-themes (3.22.14-1) unstable; urgency=medium
+
+  * New upstream release
+
+ -- Vlad Orlov <monsta@inbox.ru>  Mon, 22 Jan 2018 13:02:22 +0300
+
+kosmos-themes (3.22.5-1) unstable; urgency=medium
+
+  * New upstream release
+
+ -- Stefano Karapetsas <stefano@karapetsas.com>  Fri, 06 Jan 2017 17:26:27 +0100
+
+kosmos-themes (1.12.1-1) unstable; urgency=medium
+
+  * New upstream bugfix release
+
+ -- Vlad Orlov <monsta@inbox.ru>  Mon, 07 Dec 2015 11:21:02 +0300
+
+kosmos-themes (1.12.0-1) unstable; urgency=medium
+
+  * New upstream release
+
+ -- Clement Lefebvre <root@linuxmint.com>  Tue, 03 Nov 2015 13:21:26 +0000
+
+kosmos-themes (1.11.0-1) unstable; urgency=medium
+
+  * New upstream development release
+
+ -- Vlad Orlov <monsta@inbox.ru>  Tue, 27 Oct 2015 11:13:59 +0300
+
+kosmos-themes (1.10.0-1) unstable; urgency=medium
+
+  * New upstream release
+
+ -- Vlad Orlov <monsta@inbox.ru>  Mon, 06 Jul 2015 15:31:44 +0300
+
+kosmos-themes (1.9.3-1) unstable; urgency=low
+
+  * New upstream development release
+
+ -- Stefano Karapetsas <stefano@karapetsas.com>  Tue, 20 Jan 2015 19:49:58 +0100
+
+kosmos-themes (1.9.2-1) unstable; urgency=medium
+
+  * New upstream development release
+
+ -- Stefano Karapetsas <stefano@karapetsas.com>  Thu, 20 Nov 2014 10:39:18 +0100
+
+kosmos-themes (1.9.0-1) unstable; urgency=low
+
+  * New upstream development release
+
+ -- Stefano Karapetsas <stefano@karapetsas.com>  Tue, 22 Apr 2014 16:14:04 +0200
+
+kosmos-themes (1.8.0-0) unstable; urgency=low
+
+  * New upstream release
+
+ -- Stefano Karapetsas <stefano@karapetsas.com>  Wed, 05 Mar 2014 21:53:43 +0100
+
+kosmos-themes (1.7.90-1) unstable; urgency=low
+
+  * New upstream development release
+
+ -- Stefano Karapetsas <stefano@karapetsas.com>  Tue, 18 Feb 2014 20:56:40 +0100
+
+kosmos-themes (1.7.2-1) unstable; urgency=low
+
+  * New upstream development release.
+
+ -- Stefano Karapetsas <stefano@karapetsas.com>  Fri, 17 Jan 2014 12:04:15 +0100
+
+kosmos-themes (1.6.1-1~kosmos1) unstable; urgency=low
+
+  * New upstream release.
+
+ -- Stefano Karapetsas <stefano@karapetsas.com>  Tue, 02 Jul 2013 10:16:13 +0200
+
+kosmos-themes (1.6.0-2) unstable; urgency=low
+
+  * New upstream release.
+
+ -- Steve Zesch <stevezesch2@gmail.com>  Sun, 31 Mar 2013 19:24:54 -0400
+
+kosmos-themes (1.6.0-1) unstable; urgency=low
+
+  * New upstream release. 
+
+ -- Steve Zesch <stevezesch2@gmail.com>  Sun, 31 Mar 2013 17:58:48 -0400
+
+kosmos-themes (1.5.2-1) unstable; urgency=low
+
+  * New upstream development release.
+
+ -- Stefano Karapetsas <stefano@karapetsas.com>  Wed, 27 Mar 2013 00:35:24 +0100
+
+kosmos-themes (1.5.1-1) unstable; urgency=low
+
+  * New upstream development release.
+
+ -- Stefano Karapetsas <stefano@karapetsas.com>  Fri, 22 Mar 2013 23:28:50 +0100
+=======
+
+kosmos-themes (1.5.0-1) unstable; urgency=low
+
+  * New upstream development release.
+
+ -- Stefano Karapetsas <stefano@karapetsas.com>  Sun, 21 Oct 2012 15:00:43 +0200
+
+kosmos-themes (1.4.0-1) unstable; urgency=low
+
+  * New upstream release.
+
+ -- Steve Zesch <stevezesch2@gmail.com>  Fri, 13 Jul 2012 21:47:12 -0400
+
+kosmos-themes (1.2.2-1) unstable; urgency=low
+
+  * New upstream bugfix release.
+
+ -- Stefano Karapetsas <stefano@karapetsas.com>  Wed, 04 Apr 2012 17:57:38 +0200
+
+kosmos-themes (1.2.1-1) unstable; urgency=low
+
+  * Renamed themes. 
+
+ -- Steve Zesch <stevezesch2@gmail.com>  Fri, 30 Mar 2012 19:59:32 -0400
+
+kosmos-themes (1.2.0-1) unstable; urgency=low
+
+  * New upstream release.
+  * Drop kosmos-themes-gnome package.
+
+ -- Stefano Karapetsas <stefano@karapetsas.com>  Thu, 01 Mar 2012 19:11:43 +0100
+
+kosmos-themes (1.1.0-1) unstable; urgency=low
+
+  * New upstream release.
+
+ -- Stefano Karapetsas <stefano@karapetsas.com>  Sun, 11 Dec 2011 11:31:39 +0100
+
+kosmos-themes (1.0.0-3) unstable; urgency=low
+
+  * Fixed conflict with some other GNOME2 package, thanks to Amanas.
+
+ -- Stefano Karapetsas <stefano@karapetsas.com>  Thu, 10 Nov 2011 00:43:30 +0100
+
+kosmos-themes (1.0.0-2) unstable; urgency=low
+
+  * Fixed conflict with GNOME3 themes package.
+
+ -- Stefano Karapetsas <stefano@karapetsas.com>  Tue, 08 Nov 2011 04:15:11 +0100
+
+kosmos-themes (1.0.0-1) unstable; urgency=low
+
+  * New upstream release.
+
+ -- Stefano Karapetsas <stefano@karapetsas.com>  Sun, 06 Nov 2011 00:55:01 +0100
+
+kosmos-themes (2011.10.27-1) unstable; urgency=low
+
+  * New upstream release.
+
+ -- Stefano Karapetsas <stefano@karapetsas.com>  Thu, 27 Oct 2011 00:28:59 +0200
+

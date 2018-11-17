@@ -1,0 +1,58 @@
+Source: kosmos-notification-daemon
+Section: x11
+Priority: optional
+Maintainer: Debian+Ubuntu MATE Packaging Team <debian-kosmos@lists.debian.org>
+Uploaders: John Paul Adrian Glaubitz <glaubitz@physik.fu-berlin.de>,
+           Stefano Karapetsas <stefano@karapetsas.com>,
+           Mike Gabriel <sunweaver@debian.org>,
+           Vangelis Mouhtsis <vangelis@gnugr.org>,
+Build-Depends: debhelper (>= 10),
+               dpkg-dev (>= 1.16.1.1),
+               intltool,
+               libcanberra-gtk3-dev,
+               libglib2.0-dev,
+               libgtk-3-dev (>= 3.14),
+               libnotify-dev,
+               libwnck-3-dev,
+               libx11-dev,
+               kosmos-common (>= 1.20),
+Standards-Version: 3.9.7
+Homepage: http://www.kramaos.org/
+Vcs-Browser: https://github.com/kosmos-desktop/debian-packages
+Vcs-Git: git://github.com/kosmos-desktop/debian-packages.git
+
+Package: kosmos-notification-daemon
+Architecture: any
+Depends: kosmos-notification-daemon-common (= ${source:Version}),
+         ${misc:Depends},
+         ${shlibs:Depends},
+Provides: notification-daemon,
+Description: daemon to display passive popup notifications
+ kosmos-notification-daemon displays passive popup notifications, as per
+ the Desktop Notifications Specification.
+ .
+ The Desktop Notifications Specification provides a standard way of
+ doing passive popup notifications on the Linux desktop. These are
+ designed to notify the user of something without interrupting their
+ work with a dialog box that they must close.  Passive popups can
+ automatically disappear after a short period of time, as per the
+ Desktop Notifications spec.
+
+Package: kosmos-notification-daemon-common
+Architecture: all
+Depends: ${misc:Depends},
+Replaces: kosmos-notification-daemon (<< 1.11.0),
+Breaks: kosmos-notification-daemon (<< 1.11.0),
+Description: daemon to display passive popup notifications (common files)
+ kosmos-notification-daemon displays passive popup notifications, as per
+ the Desktop Notifications Specification.
+ .
+ The Desktop Notifications Specification provides a standard way of
+ doing passive popup notifications on the Linux desktop. These are
+ designed to notify the user of something without interrupting their
+ work with a dialog box that they must close.  Passive popups can
+ automatically disappear after a short period of time, as per the
+ Desktop Notifications spec.
+ .
+ This package contains the architecture independent files.
+

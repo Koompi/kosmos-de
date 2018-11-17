@@ -1,0 +1,234 @@
+engrampa (1.21.0-1) unstable; urgency=medium
+
+  * New upstream development release
+
+ -- Vlad Orlov <monsta@inbox.ru>  Tue, 09 Oct 2018 17:56:39 +0300
+
+engrampa (1.20.1-1) unstable; urgency=medium
+
+  * New upstream bugfix release
+
+ -- Vlad Orlov <monsta@inbox.ru>  Sat, 23 Jun 2018 14:27:25 +0300
+
+engrampa (1.20.0-1) unstable; urgency=medium
+
+  * New upstream release
+
+ -- Vlad Orlov <monsta@inbox.ru>  Wed, 07 Feb 2018 13:52:28 +0300
+
+engrampa (1.19.0-1) unstable; urgency=medium
+
+  * New upstream development release
+
+ -- Vlad Orlov <monsta@inbox.ru>  Wed, 24 Jan 2018 11:47:27 +0300
+
+engrampa (1.18.3-1) unstable; urgency=medium
+
+  * New upstream bugfix release
+
+ -- Vlad Orlov <monsta@inbox.ru>  Wed, 08 Nov 2017 12:53:04 +0300
+
+engrampa (1.18.2-1) unstable; urgency=medium
+
+  * New upstream bugfix release
+
+ -- Vlad Orlov <monsta@inbox.ru>  Sun, 21 May 2017 18:14:17 +0300
+
+engrampa (1.18.1-1) unstable; urgency=medium
+
+  * New upstream bugfix release
+
+ -- Vlad Orlov <monsta@inbox.ru>  Wed, 05 Apr 2017 11:22:11 +0300
+
+engrampa (1.18.0-1) unstable; urgency=medium
+
+  * New upstream release
+
+ -- Vlad Orlov <monsta@inbox.ru>  Wed, 15 Mar 2017 15:48:01 +0300
+
+engrampa (1.17.0-1) unstable; urgency=medium
+
+  * New upstream development release
+
+ -- Vlad Orlov <monsta@inbox.ru>  Sat, 10 Dec 2016 21:47:46 +0300
+
+engrampa (1.16.0-1) unstable; urgency=medium
+
+  * New upstream release
+
+ -- Vlad Orlov <monsta@inbox.ru>  Thu, 22 Sep 2016 17:36:33 +0300
+
+engrampa (1.15.1-1) unstable; urgency=medium
+
+  * New upstream development release
+
+ -- Vlad Orlov <monsta@inbox.ru>  Fri, 29 Jul 2016 14:56:06 +0300
+
+engrampa (1.15.0-1) unstable; urgency=medium
+
+  * New upstream development release
+
+ -- Vlad Orlov <monsta@inbox.ru>  Wed, 15 Jun 2016 10:49:52 +0300
+
+engrampa (1.14.1-1) unstable; urgency=medium
+
+  * New upstream bugfix release
+
+ -- Vlad Orlov <monsta@inbox.ru>  Tue, 24 May 2016 10:14:36 +0300
+
+engrampa (1.14.0-1) unstable; urgency=medium
+
+  * New upstream release
+
+ -- Vlad Orlov <monsta@inbox.ru>  Mon, 11 Apr 2016 11:30:36 +0300
+
+engrampa (1.13.1-1) unstable; urgency=medium
+
+  * New upstream development release
+
+ -- Vlad Orlov <monsta@inbox.ru>  Wed, 24 Feb 2016 14:01:55 +0300
+
+engrampa (1.13.0-1) unstable; urgency=medium
+
+  * New upstream development release
+
+ -- Vlad Orlov <monsta@inbox.ru>  Tue, 16 Feb 2016 11:39:14 +0300
+
+engrampa (1.12.0-1) unstable; urgency=medium
+
+  * New upstream release
+
+ -- Clement Lefebvre <root@linuxmint.com>  Tue, 03 Nov 2015 13:15:52 +0000
+
+engrampa (1.11.0-1) unstable; urgency=medium
+
+  * New upstream development release
+
+ -- Vlad Orlov <monsta@inbox.ru>  Thu, 15 Oct 2015 16:47:17 +0300
+
+engrampa (1.10.2-1) unstable; urgency=medium
+
+  * New upstream bugfix release
+
+ -- Vlad Orlov <monsta@inbox.ru>  Fri, 02 Oct 2015 12:55:24 +0300
+
+engrampa (1.10.1-1) unstable; urgency=medium
+
+  * New upstream bugfix release
+
+ -- Vlad Orlov <monsta@inbox.ru>  Mon, 13 Jul 2015 17:21:15 +0300
+
+engrampa (1.10.0-1) unstable; urgency=medium
+
+  * New upstream release
+
+ -- Vlad Orlov <monsta@inbox.ru>  Tue, 23 Jun 2015 17:01:01 +0300
+
+engrampa (1.9.90-1) unstable; urgency=low
+
+  * New upstream release candidate
+
+ -- Stefano Karapetsas <stefano@karapetsas.com>  Sun, 05 Apr 2015 18:50:33 +0200
+
+engrampa (1.9.2-1) unstable; urgency=medium
+
+  * New upstream development release
+
+ -- Stefano Karapetsas <stefano@karapetsas.com>  Thu, 22 Jan 2015 11:26:36 +0100
+
+engrampa (1.9.0-1) unstable; urgency=low
+
+  * New upstream development release
+
+ -- Stefano Karapetsas <stefano@karapetsas.com>  Tue, 22 Apr 2014 16:10:25 +0200
+
+engrampa (1.8.0-0) unstable; urgency=low
+
+  * New upstream release
+
+ -- Stefano Karapetsas <stefano@karapetsas.com>  Thu, 06 Mar 2014 23:10:30 +0100
+
+engrampa (1.7.90-1) unstable; urgency=low
+
+  * New upstream development release
+
+ -- Stefano Karapetsas <stefano@karapetsas.com>  Wed, 19 Feb 2014 18:46:43 +0100
+
+engrampa (1.7.1-1) unstable; urgency=low
+
+  * New upstream development release.
+
+ -- Stefano Karapetsas <stefano@karapetsas.com>  Thu, 13 Feb 2014 10:04:59 +0100
+
+engrampa (1.7.0-1) unstable; urgency=low
+
+  * New upstream development release.
+
+ -- Stefano Karapetsas <stefano@karapetsas.com>  Wed, 15 Jan 2014 12:04:18 +0100
+
+kosmos-file-archiver (1.6.0-1) unstable; urgency=low
+
+  * New upstream release. 
+
+ -- Steve Zesch <stevezesch2@gmail.com>  Sun, 31 Mar 2013 19:30:43 -0400
+
+kosmos-file-archiver (1.5.1-1) unstable; urgency=low
+
+  * New upstream development release.
+    * Fixed a bug that caused the application to crash when
+      clicking Cancel in Add Files.
+    * Numerous code cleanups.
+    * Fixed an error when a filename contains "%".
+    * Fixed an error that prevented encrypted rar files from
+      being opened.
+
+ -- Steve Zesch <stevezesch2@gmail.com>  Sun, 18 Nov 2012 16:21:18 -0500
+
+kosmos-file-archiver (1.5.0-1) unstable; urgency=low
+
+  * New upstream development release.
+  * Remove kosmos-conf dependency.
+
+ -- Stefano Karapetsas <stefano@karapetsas.com>  Tue, 06 Nov 2012 11:17:18 +0100
+
+kosmos-file-archiver (1.4.0-1) unstable; urgency=low
+
+  * New upstream release. 
+
+ -- Steve Zesch <stevezesch2@gmail.com>  Sun, 15 Jul 2012 13:52:09 -0400
+
+kosmos-file-archiver (1.2.1-1) unstable; urgency=low
+
+  * Changed references of File Roller to Engrampa 
+
+ -- Steve Zesch <stevezesch2@gmail.com>  Fri, 30 Mar 2012 20:37:22 -0400
+
+kosmos-file-archiver (1.2.0-1) unstable; urgency=low
+
+  * New upstream release.
+
+ -- Stefano Karapetsas <stefano@karapetsas.com>  Wed, 07 Mar 2012 23:49:26 +0100
+
+kosmos-file-archiver (1.1.0-1) unstable; urgency=low
+
+  * New upstream release.
+
+ -- Stefano Karapetsas <stefano@karapetsas.com>  Tue, 13 Dec 2011 23:08:02 +0100
+
+kosmos-file-archiver (1.0.3-3) unstable; urgency=low
+
+  * Fixed depends.
+
+ -- Stefano Karapetsas <stefano@karapetsas.com>  Wed, 23 Nov 2011 17:01:28 +0100
+
+kosmos-file-archiver (1.0.3-2) unstable; urgency=low
+
+  * Split arch indepenent files into engrampa-common package.
+
+ -- Stefano Karapetsas <stefano@karapetsas.com>  Wed, 23 Nov 2011 16:23:02 +0100
+
+kosmos-file-archiver (1.0.3-1) unstable; urgency=low
+
+  * Initial release.
+
+ -- Stefano Karapetsas <stefano@karapetsas.com>  Sat, 12 Nov 2011 00:46:59 +0100

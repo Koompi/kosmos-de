@@ -1,0 +1,75 @@
+Source: kosmos-power-manager
+Section: x11
+Priority: optional
+Maintainer: Debian+Ubuntu MATE Packaging Team <debian-kosmos@lists.debian.org>
+Uploaders: Mike Gabriel <sunweaver@debian.org>,
+           John Paul Adrian Glaubitz <glaubitz@physik.fu-berlin.de>,
+           Stefano Karapetsas <stefano@karapetsas.com>,
+           Vangelis Mouhtsis <vangelis@gnugr.org>,
+           Petr Baudis <pasky@ucw.cz>,
+Build-Depends: debhelper (>= 10),
+               dpkg-dev (>= 1.16.1.1),
+               intltool,
+               libcanberra-gtk3-dev,
+               libdbus-glib-1-dev,
+               libgcrypt20-dev,
+               libglib2.0-dev,
+               libgnome-keyring-dev,
+               libgtk-3-dev,
+               libkosmos-panel-applet-dev (>= 1.20),
+               libnotify-dev,
+               libtool-bin,
+               libupower-glib-dev,
+               libx11-dev,
+               libxext-dev,
+               libxml-parser-perl,
+               libxrandr-dev,
+               kosmos-common (>= 1.20),
+               pkg-config,
+               xmlto,
+               yelp-tools,
+Standards-Version: 3.9.7
+Homepage: http://www.kramaos.org/
+Vcs-Browser: https://github.com/kosmos-desktop/debian-packages
+Vcs-Git: git://github.com/kosmos-desktop/debian-packages.git
+
+Package: kosmos-power-manager
+Architecture: any
+Depends: dbus-x11,
+         kosmos-notification-daemon | notification-daemon,
+         kosmos-power-manager-common (= ${source:Version}),
+         policykit-1,
+         systemd | consolekit,
+         upower,
+         ${misc:Depends},
+         ${shlibs:Depends},
+Suggests: kosmos-polkit,
+Description: power management tool for the MATE desktop
+ MATE Power Manager is a session daemon for the MATE desktop
+ that takes care of system or desktop events related to power, and
+ triggers actions accordingly. Its philosophy is to completely hide
+ these complex tasks and only show some settings important to the user.
+ .
+ The MATE power manager displays and manages battery status, power plug
+ events, display brightness, CPU, graphics card and hard disk drive
+ power saving, and can trigger suspend-to-RAM, hibernate or shutdown
+ events, all integrated to other components of the MATE desktop.
+
+Package: kosmos-power-manager-common
+Architecture: all
+Depends: ${misc:Depends},
+Breaks: kosmos-power-manager (<< 1.9.0),
+Replaces: kosmos-power-manager (<< 1.9.0),
+Description: power management tool for the MATE desktop (common files)
+ MATE Power Manager is a session daemon for the MATE desktop
+ that takes care of system or desktop events related to power, and
+ triggers actions accordingly. Its philosophy is to completely hide
+ these complex tasks and only show some settings important to the user.
+ .
+ The MATE power manager displays and manages battery status, power plug
+ events, display brightness, CPU, graphics card and hard disk drive
+ power saving, and can trigger suspend-to-RAM, hibernate or shutdown
+ events, all integrated to other components of the MATE desktop.
+ .
+ This package contains the architecture independent files.
+

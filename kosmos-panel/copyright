@@ -1,0 +1,663 @@
+Format: https://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
+Upstream-Name: kosmos-panel
+Upstream-Contact: Stefano Karapetsas <stefano@karapetsas.com>
+Source: http://git.kramaos.org/kosmos-panel
+
+Files: applets/wncklet/wncklet.c
+       kosmos-panel/panel-applet-frame.h
+       kosmos-panel/panel-action-protocol.c
+       kosmos-panel/panel-action-protocol.h
+       kosmos-panel/panel-background.c
+       kosmos-panel/panel-background.h
+       kosmos-panel/panel-bindings.c
+       kosmos-panel/panel-bindings.h
+       kosmos-panel/panel-config-global.c
+       kosmos-panel/panel-config-global.h
+       kosmos-panel/panel-enums-gsettings.h
+       kosmos-panel/panel-enums.h
+       kosmos-panel/panel-frame.c
+       kosmos-panel/panel-frame.h
+       kosmos-panel/panel-globals.h
+       kosmos-panel/panel-lockdown.c
+       kosmos-panel/panel-lockdown.h
+       kosmos-panel/panel-menu-bar.h
+       kosmos-panel/panel-menu-button.c
+       kosmos-panel/panel-menu-button.h
+       kosmos-panel/panel-profile.c
+       kosmos-panel/panel-profile.h
+       kosmos-panel/panel-properties-dialog.c
+       kosmos-panel/panel-properties-dialog.h
+       kosmos-panel/panel-session.c
+       kosmos-panel/panel-session.h
+       kosmos-panel/panel-stock-icons.c
+       kosmos-panel/panel-stock-icons.h
+       kosmos-panel/panel-struts.h
+       kosmos-panel/panel-toplevel.h
+       kosmos-panel/panel-xutils.c
+       kosmos-panel/panel-xutils.h
+Copyright: 2001-2004, Sun Microsystems, Inc.
+License: GPL-2+
+
+Files: applets/clock/system-timezone.h
+       applets/clock/test-system-timezone.c
+       kosmos-panel/libpanel-util/panel-cleanup.c
+       kosmos-panel/libpanel-util/panel-cleanup.h
+       kosmos-panel/libpanel-util/panel-color.c
+       kosmos-panel/libpanel-util/panel-color.h
+       kosmos-panel/libpanel-util/panel-error.h
+       kosmos-panel/libpanel-util/panel-glib.h
+       kosmos-panel/libpanel-util/panel-gtk.h
+       kosmos-panel/libpanel-util/panel-icon-chooser.c
+       kosmos-panel/libpanel-util/panel-icon-chooser.h
+       kosmos-panel/libpanel-util/panel-launch.c
+       kosmos-panel/libpanel-util/panel-launch.h
+       kosmos-panel/libpanel-util/panel-list.h
+       kosmos-panel/libpanel-util/panel-session-manager.c
+       kosmos-panel/libpanel-util/panel-session-manager.h
+       kosmos-panel/libpanel-util/panel-show.c
+       kosmos-panel/libpanel-util/panel-show.h
+       kosmos-panel/libpanel-util/panel-xdg.h
+       kosmos-panel/panel-layout.c
+Copyright: 2008-2011, Novell, Inc.
+License: GPL-2+
+
+Files: applets/clock/calendar-window.c
+       applets/clock/calendar-window.h
+       applets/clock/clock-utils.c
+       applets/clock/clock-utils.h
+       applets/clock/clock.h
+       man/kosmos-panel.1
+       kosmos-panel/panel-modules.c
+       kosmos-panel/panel-modules.h
+Copyright: 2007-2010, Vincent Untz <vuntz@gnome.org>
+License: GPL-2+
+
+Files: kosmos-panel/libkosmos-panel-applet-private/panel-applets-manager-dbus.c
+       kosmos-panel/libkosmos-panel-applet-private/panel-applets-manager-dbus.h
+       kosmos-panel/panel-applet-info.c
+       kosmos-panel/panel-applet-info.h
+       kosmos-panel/panel-applets-manager.c
+       kosmos-panel/panel-applets-manager.h
+Copyright: 2010, Carlos Garcia Campos <carlosgc@gnome.org>
+           2010, Vincent Untz <vuntz@gnome.org>
+License: GPL-2+
+
+Files: kosmos-panel/panel-addto.c
+       kosmos-panel/panel-addto.h
+       kosmos-panel/panel-context-menu.c
+       kosmos-panel/panel-context-menu.h
+       kosmos-panel/panel-menu-items.c
+       kosmos-panel/panel-menu-items.h
+Copyright: 2004-2005, Vincent Untz
+License: GPL-2+
+
+Files: libkosmos-panel-applet/kosmos-panel-applet-factory.c
+       libkosmos-panel-applet/kosmos-panel-applet-factory.h
+       libkosmos-panel-applet/panel-applet-private.h
+       kosmos-panel/libkosmos-panel-applet-private/panel-applet-container.c
+       kosmos-panel/libkosmos-panel-applet-private/panel-applet-container.h
+Copyright: 2010, Carlos Garcia Campos <carlosgc@gnome.org>
+License: LGPL-2+
+
+Files: libkosmos-panel-applet/panel-plug.c
+       libkosmos-panel-applet/panel-plug-private.h
+Copyright: 2016, Alberts Muktupāvels
+License: GPL-2+
+
+Files: kosmos-panel/libegg/eggdesktopfile.h
+       kosmos-panel/libegg/eggsmclient-private.h
+       kosmos-panel/libegg/eggsmclient.c
+       kosmos-panel/libegg/eggsmclient.h
+Copyright: 2007, Novell, Inc.
+License: LGPL-2+
+
+Files: applets/clock/clock-sunpos.c
+       applets/wncklet/showdesktop.c
+       applets/wncklet/showdesktop.h
+Copyright: 2002, 2007, Red Hat, Inc.
+License: GPL-2+
+
+Files: applets/notification_area/libstatus-notifier-watcher/*
+       applets/notification_area/status-notifier/*
+Copyright: 2016 Alberts Muktupāvels
+License: GPL-2+
+Comment:
+ Assuming license as found in COPYING file.
+
+Files: applets/notification_area/na-box.c
+       applets/notification_area/na-box.h
+       applets/notification_area/na-host.c
+       applets/notification_area/na-host.h
+       applets/notification_area/na-item.c
+       applets/notification_area/na-item.h
+Copyright: 2016 Alberts Muktupāvels
+           2017 Colomban Wendling <cwendling@hypra.fr>
+License: GPL-2+
+Comment:
+ Assuming license as found in COPYING file.
+
+Files: applets/notification_area/system-tray/na-tray-manager.c
+       applets/notification_area/system-tray/na-tray-manager.h
+       applets/notification_area/system-tray/na-tray.h
+Copyright: 2002, Anders Carlsson <andersca@gnu.org>
+           2003-2006, Vincent Untz
+License: LGPL-2+
+
+Files: libkosmos-panel-applet/kosmos-panel-applet.h
+       kosmos-panel/panel-force-quit.c
+       kosmos-panel/panel-force-quit.h
+Copyright: 2001-2003, Sun Microsystems, Inc.
+License: LGPL-2+
+
+Files: kosmos-panel/main.c
+       kosmos-panel/panel-widget.c
+       kosmos-panel/panel.c
+Copyright: 1997-2000, the Free Software Foundation
+           2000, Eazel, Inc.
+License: GPL-2+
+Comment:
+ Assuming license as found in COPYING file.
+
+Files: kosmos-panel/panel-separator.c
+       kosmos-panel/panel-separator.h
+Copyright: 2005, Carlos Garcia Campos <carlosgc@gnome.org>
+License: GPL-2+
+
+Files: applets/clock/set-timezone.c
+       applets/clock/set-timezone.h
+Copyright: 2007, David Zeuthen <david@fubar.dk>
+License: GPL-2+
+
+Files: kosmos-panel/libpanel-util/panel-error.c
+       kosmos-panel/libpanel-util/panel-glib.c
+Copyright: 2008, Novell, Inc.
+           Dennis Cranston (for the panel_g_lookup_in_data_dirs() code)
+License: GPL-2+
+
+Files: kosmos-panel/menu.c
+       kosmos-panel/menu.h
+Copyright: 1997, 2000, The Free Software Foundation
+           2000, Eazel, Inc.
+           2000, Helix Code, Inc.
+           2004, Red Hat, Inc.
+License: GPL-2+
+
+Files: kosmos-panel/panel-run-dialog.c
+       kosmos-panel/panel-run-dialog.h
+Copyright: 2003, Frank Worsley <fworsley@shaw.ca>
+License: GPL-2+
+
+Files: applets/wncklet/window-menu.c
+       applets/wncklet/window-menu.h
+Copyright: 2000, Helix Code, Inc.
+           2001, Free Software Foundation, Inc.
+           2003, Sun Microsystems, Inc.
+License: GPL-2+
+
+Files: kosmos-panel/panel-multiscreen.c
+       kosmos-panel/panel-multiscreen.h
+Copyright: 2001, George Lebl <jirka@5z.com>
+License: GPL-2+
+
+Files: kosmos-panel/libpanel-util/panel-dbus-service.c
+       kosmos-panel/libpanel-util/panel-dbus-service.h
+Copyright: 2006, Ray Strode <rstrode@redhat.com>
+           2008, Novell, Inc.
+License: GPL-2+
+
+Files: kosmos-panel/libpanel-util/panel-gtk.c
+       kosmos-panel/libpanel-util/panel-xdg.c
+Copyright: 2005, 2006, Vincent Untz <vuntz@gnome.org>
+           2010, Novell, Inc.
+License: GPL-2+
+
+Files: kosmos-panel/libpanel-util/panel-keyfile.c
+       kosmos-panel/libpanel-util/panel-keyfile.h
+Copyright: 2008, Novell, Inc.
+License: GPL-2+
+
+Files: kosmos-panel/panel-action-button.c
+       kosmos-panel/panel-action-button.h
+Copyright: 2002, Sun Microsystems, Inc.
+           2004, Red Hat, Inc.
+License: GPL-2+
+
+Files: kosmos-panel/panel-struts.c
+       kosmos-panel/panel-toplevel.c
+Copyright: 2003, Sun Microsystems, Inc.
+           2003, 2004, Rob Adams
+License: GPL-2+
+
+Files: kosmos-panel/panel-a11y.c
+       kosmos-panel/panel-a11y.h
+Copyright: 2002-2003, Sun Microsystems, Inc.
+License: GPL-2+
+
+Files: applets/notification_area/system-tray/na-tray-child.c
+       applets/notification_area/system-tray/na-tray-child.h
+Copyright: 2002, Anders Carlsson <andersca@gnu.org>
+           2003-2006, Vincent Untz
+           2008, Red Hat, Inc.
+License: LGPL-2+
+
+Files: kosmos-panel/panel-background-monitor.c
+       kosmos-panel/panel-background-monitor.h
+Copyright: 2001-2002, Ian McKellar <yakk@yakk.net>
+License: LGPL-2+
+
+Files: kosmos-panel/panel-recent.c
+       kosmos-panel/panel-recent.h
+Copyright: 2002, James Willcox <jwillcox@gnome.org>
+License: LGPL-2+
+
+Files: kosmos-panel/panel-reset.c
+       kosmos-panel/panel-reset.h
+Copyright: 2010, Perberos <perberos@gmail.com>
+License: LGPL-2+
+
+Files: libkosmos-panel-applet/kosmos-panel-applet-gsettings.c
+       libkosmos-panel-applet/kosmos-panel-applet-gsettings.h
+Copyright: 2012, Stefano Karapetsas
+License: LGPL-2+
+
+Files: kosmos-panel/panel-ditem-editor.c
+       kosmos-panel/panel-ditem-editor.h
+Copyright: 2004-2006 Vincent Untz
+License: LGPL-2+
+
+Files: applets/wncklet/window-list.h
+       applets/wncklet/workspace-switcher.h
+Copyright: 2001, Alexander Larsson
+License: GPL-2+
+Comment:
+ Assuming license as found in COPYING file.
+
+Files: applets/wncklet/window-list.c
+       applets/wncklet/workspace-switcher.c
+Copyright: 2001, Alexander Larsson
+  2001, Red Hat, Inc.
+License: GPL-2+
+Comment:
+ Assuming license as found in COPYING file.
+
+Files: applets/clock/clock-face.c
+       applets/clock/clock-face.h
+Copyright: 2005-2006, Davyd Madeley
+  2007, Peter Teichman
+License: GPL-2+
+Comment:
+ Assuming license as found in COPYING file.
+
+Files: kosmos-panel/drawer.c
+       kosmos-panel/launcher.h
+Copyright: 1997, The Free Software Foundation
+License: GPL-2+
+Comment:
+ Assuming license as found in COPYING file.
+
+Files: kosmos-panel/applet.c
+       kosmos-panel/panel-widget.h
+Copyright: 1997, the Free Software Foundation
+  1997-1998, the Free Software Foundation
+License: GPL-2+
+Comment:
+ Assuming license as found in COPYING file.
+
+Files: kosmos-panel/panel-shell.c
+Copyright: 2001, Ximian, Inc.
+           2008, Novell, Inc.
+           2008, Red Hat, Inc.
+           2010, Carlos Garcia Campos <carlosgc@gnome.org>
+License: GPL-2+
+
+Files: kosmos-panel/panel-applet-frame.c
+Copyright: 2001, 2003, Sun Microsystems, Inc.
+           2010, Carlos Garcia Campos <carlosgc@gnome.org>
+License: GPL-2+
+
+Files: kosmos-panel/libkosmos-panel-applet-private/panel-applet-frame-dbus.c
+Copyright: 2001, 2003, Sun Microsystems, Inc.
+           2010, Carlos Garcia Campos <carlosgc@gnome.org>
+           2010, Vincent Untz <vuntz@gnome.org>
+License: GPL-2+
+
+Files: applets/notification_area/system-tray/na-tray.c
+Copyright: 2002, Red Hat, Inc.
+           2003, 2006, Vincent Untz
+           2007, Christian Persch
+License: GPL-2+
+
+Files: applets/clock/clock.c
+Copyright: 1997-2003, Free Software Foundation, Inc.
+License: GPL-2+
+
+Files: applets/fish/fish.c
+Copyright: 1998-2002, Free Software Foundation, Inc.
+           2002-2005, Vincent Untz
+License: GPL-2+
+
+Files: applets/notification_area/system-tray/fixedtip.c
+       applets/notification_area/system-tray/fixedtip.h
+Copyright: 2001, Havoc Pennington,
+           2002, Red Hat, Inc.
+           2003-2006, Vincent Untz
+License: GPL-2+
+
+Files: kosmos-panel/libpanel-util/panel-list.c
+Copyright: 2008, Novell, Inc.
+           Mark McLoughlin <mark@skynet.ie>
+License: GPL-2+
+
+Files: kosmos-panel/panel-shell.h
+Copyright: 2001, Ximian, Inc.
+           2008, Novell, Inc.
+           2008, Red Hat, Inc.
+License: GPL-2+
+
+Files: applets/clock/system-timezone.c
+Copyright: 2000-2001, Ximian, Inc.
+           2004, Sun Microsystems, Inc.
+           2008, Novell, Inc.
+License: GPL-2+
+
+Files: applets/notification_area/main.c
+       applets/notification_area/main.h
+Copyright: 2002, Red Hat, Inc.
+           2003-2006, Vincent Untz
+           2011, Perberos
+License: GPL-2+
+
+Files: kosmos-panel/panel-layout.h
+Copyright: 2012, Stefano Karapetsas
+License: GPL-2+
+
+Files: kosmos-panel/panel-menu-bar.c
+Copyright: 2003, Sun Microsystems, Inc.
+           2004, Vincent Untz
+License: GPL-2+
+
+Files: kosmos-panel/libkosmos-panel-applet-private/panel-applet-frame-dbus.h
+Copyright: 2001-2003, Sun Microsystems, Inc.
+           2010, Vincent Untz <vuntz@gnome.org>
+License: GPL-2+
+
+Files: applets/notification_area/testtray.c
+Copyright: 2002, Anders Carlsson <andersca@gnu.org>
+           2003-2006, Vincent Untz
+           2006-2007, Christian Persch
+License: LGPL-2+
+
+Files: libkosmos-panel-applet/kosmos-panel-applet.c
+Copyright: 2001, Sun Microsystems, Inc.
+           2010, Carlos Garcia Campos <carlosgc@gnome.org>
+License: LGPL-2+
+
+Files: kosmos-panel/libegg/eggsmclient-xsmp.c
+Copyright: 1998, Carsten Schaar, and twm
+           1998, The Open Group
+           2007, Novell, Inc.
+License: LGPL-2+
+
+Files: kosmos-panel/libegg/eggdesktopfile.c
+Copyright: 1999-2000, Red Hat, Inc.
+           2001, George Lebl
+           2007, Novell, Inc.
+License: LGPL-2+
+
+Files: applets/wncklet/wncklet.h
+Copyright: 2003, Wipro Technologies
+License: LGPL-2+
+
+Files: kosmos-panel/xstuff.c
+Copyright: 1997-2002, Alfredo K. Kojima
+           2000-2001, Eazel, Inc.
+License: GPL-2+
+Comment:
+ Assuming license as found in COPYING file.
+
+Files: kosmos-panel/panel-util.c
+Copyright: 1997, 2000, The Free Software Foundation
+           2000, Helix Code, Inc.
+           2000, 2001, Eazel, Inc.
+           2001, George Lebl
+           2002, Sun Microsystems, Inc.
+License: GPL-2+
+Comment:
+ Assuming license as found in COPYING file.
+
+Files: kosmos-panel/launcher.c
+Copyright: 1997, 2000, The Free Software Foundation
+           2000, Eazel, Inc.
+License: GPL-2+
+Comment:
+ Assuming license as found in COPYING file.
+
+Files: kosmos-panel/panel-test-applets.c
+Copyright: 2002, Sun Microsystems, Inc.
+License: GPL-2+
+Comment:
+ Assuming license as found in COPYING file.
+
+Files: doc/reference/kosmos-panel-applet/*
+Copyright: 2001-2003, Sun Microsystems, Inc.
+License: LGPL-2+
+Comment:
+ Assuming same license as for libkosmos-panel-applet.
+
+Files: help/*
+Copyright: Amanpreet Singh Brar Alamwalia <apbrar@gmail.com>
+           Bakaoukas Nikolaos <nikolaosx1@gmail.com>
+           Carlos Manuel <crolidge@gmail.com>
+           Changwoo Ryu <cwryu@debian.org>
+           Claude Paroz <claude@2xlibre.net>
+           Daniel Nylander <po@danielnylander.se>
+           Iñaki Larrañaga Murgoitio <dooteo@euskalgnu.org>
+           Jen Ockwell <jenfraggleubuntu@gmail.com>
+           Joan Duran <jodufi@gmail.com>
+           Joe Hansen <joedalton2@yahoo.dk>
+           Jorge González <jorgegonz@svn.gnome.org>
+           Kevin-Wei-2 <kevin_wei3@yahoo.com.tw>
+           Laurent Coudeur <laurentc@iol.ie>
+           Luca Ferretti
+           Luciana Bastos de Freitas Menezes <lu@via-rs.net>
+           Marek Černocký <marek@manet.cz>
+           Mario Blättermann <mariobl@gnome.org>
+           Maxim Dzumanenko <dziumanenko@gmail.com>
+           Milo Casagrande <milo@ubuntu.com>
+           Myckel Habets <myckel@sdf.lonestar.org>
+           OsamaKhalid <OsamaK.WFM@gmail.com>
+           Salikhov Timur <Tima-S@yandex.ru>
+           Theppitak Karoonboonyanan <thep@linux.thai.net>
+           Timo Jyrinki <timo.jyrinki@iki.fi>
+           Yannig Marchegay (Kokoyaya) <yannig@marchegay.org>
+           Yasumichi Akahoshi <yasumichi@vinelinux.org>
+           YunQiang Su <wzssyqa@gmail.com>
+           Yuri Myasoedov <omerta13@yandex.ru>
+           Zhangmiao <mymzhang@gmail.com>
+           Данио Шеган <danilo@gnome.org>
+           Максим Дзюманенко <dziumanenko@gmail.com>
+License: GFDL-1.1+
+
+Files: .tx/config
+       .github/issue_template.md
+       applets/Makefile.am
+       applets/clock/Makefile.am
+       applets/clock/clock-location-tile.c
+       applets/clock/clock-location-tile.h
+       applets/clock/clock-location.c
+       applets/clock/clock-location.h
+       applets/clock/clock-map.c
+       applets/clock/clock-map.h
+       applets/clock/clock-marshallers.*
+       applets/clock/clock-menu.xml
+       applets/clock/clock-sunpos.h
+       applets/clock/clock.ui
+       applets/clock/org.kosmos.panel.*.in
+       applets/clock/pixmaps/Makefile.am
+       applets/clock/pixmaps/*.png
+       applets/clock/pixmaps/*.svg
+       applets/fish/Makefile.am
+       applets/fish/fish-menu.xml
+       applets/fish/*.png
+       applets/fish/*.svg
+       applets/fish/fish.ui
+       applets/fish/org.kosmos.panel.*.in
+       applets/notification_area/Makefile.am
+       applets/notification_area/system-tray/Makefile.am
+       applets/notification_area/system-tray/na-marshal.*
+       applets/notification_area/*.xml
+       applets/notification_area/org.kosmos.panel.*.in
+       applets/wncklet/Makefile.am
+       applets/wncklet/org.kosmos.panel.*.in
+       applets/wncklet/*.xml
+       applets/wncklet/*.ui
+       data/Makefile.am
+       data/org.kosmos.panel.*.in
+       data/default.layout
+       data/fedora.layout
+       data/linuxmint.layout
+       data/mageia.layout
+       data/opensuse.layout
+       data/ubuntu.layout
+       doc/Makefile.am
+       doc/*.txt
+       doc/reference/Makefile.am
+       doc/reference/kosmos-panel-applet/Makefile.am
+       icons/Makefile.am
+       icons/*.png
+       icons/16x16/Makefile.am
+       icons/16x16/*.png
+       icons/16x16/*.svg
+       icons/16x16/*.xcf.bz2
+       icons/22x22/Makefile.am
+       icons/22x22/*.png
+       icons/22x22/*.svg
+       icons/22x22/*.xcf.bz2
+       icons/24x24/Makefile.am
+       icons/24x24/*.png
+       icons/32x32/Makefile.am
+       icons/32x32/*.png
+       icons/32x32/*.svg
+       icons/48x48/Makefile.am
+       icons/48x48/*.png
+       icons/48x48/*.svg
+       icons/scalable/Makefile.am
+       icons/scalable/*.svg
+       libkosmos-panel-applet/TODO
+       libkosmos-panel-applet/Makefile.am
+       libkosmos-panel-applet/*.in
+       libkosmos-panel-applet/*.list
+       libkosmos-panel-applet/test-dbus-applet.c
+       m4/d-type.m4
+       makepot
+       man/Makefile.am
+       man/kosmos-desktop-item-edit.1
+       man/kosmos-panel-test-applets.1
+       man/kosmos-panel.1
+       kosmos-panel/Makefile.am
+       kosmos-panel/*.in
+       kosmos-panel/*.ui
+       kosmos-panel/applet.h
+       kosmos-panel/button-widget.c
+       kosmos-panel/button-widget.h
+       kosmos-panel/drawer.h
+       kosmos-panel/drawer-private.h
+       kosmos-panel/kosmos-desktop-item-edit.c
+       kosmos-panel/panel-marshal.list
+       kosmos-panel/panel-icon-names.h
+       kosmos-panel/panel-schemas.h
+       kosmos-panel/panel-types.h
+       kosmos-panel/panel-util.h
+       kosmos-panel/panel.h
+       kosmos-panel/xstuff.h
+       kosmos-panel/libegg/Makefile.am
+       kosmos-panel/libpanel-util/Makefile.am
+       kosmos-panel/libkosmos-panel-applet-private/Makefile.am
+       kosmos-panel/libkosmos-panel-applet-private/panel-applet-mini.c
+       po/LINGUAS
+       po/POTFILES.*
+       autogen.sh
+       configure.ac
+       AUTHORS
+       COPYING
+       COPYING-DOCS
+       COPYING.LIB
+       ChangeLog
+       HACKING
+       NEWS
+       README
+       Makefile.am
+Copyright: *No copyright*
+License: GPL-2+ or LGPL-2+
+Comment:
+ Assume license as found either in COPYING or in COPYING.LIB file.
+
+Files: kosmos-panel.pot
+       po/*.po
+       po/gnome-copyrights.txt
+Copyright: THE PACKAGE'S COPYRIGHT HOLDER
+           1997-2010, Free Software Foundation, Inc.
+           1999-2004, Jesús Bravo Álvarez
+           2003-2008, Sharif FarsiWeb, Inc.
+           2004-2006, Miloslav Trmac <mitr@volny.cz>.
+           2004-2006, Adam Weinberger and the GNOME Foundation
+           2004, Zuza Software Foundation
+           2005, Canonical Ltd.
+           2005, Free Software Foundation, Andhra Pradesh.
+           2006, The GNOME Foundation
+           2007-2010, The GNOME Project.
+           2006-2010, Rosetta Contributors and Canonical Ltd 2008
+           2010, HZ
+           Croatiann team
+License: GPL-2+ or LGPL-2+
+Comment:
+ Assume license as found either in COPYING or in COPYING.LIB file.
+
+Files: debian/*
+Copyright: 2011-2014 Stefano Karapetsas <stefano@karapetsas.com>
+           2014 Mike Gabriel <sunweaver@debian.org>
+License: GPL-2+ or LGPL-2+
+
+License: GPL-2+
+ This package is free software; you can redistribute it and/or modify
+ it under the terms of the GNU General Public License as published by
+ the Free Software Foundation; either version 2 of the License, or
+ (at your option) any later version.
+ .
+ This package is distributed in the hope that it will be useful,
+ but WITHOUT ANY WARRANTY; without even the implied warranty of
+ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the
+ GNU Genaral Public License for more details.
+ .
+ You should have received a copy og the GNU General Public License
+ along with this program. If not, see <http://www.gnu.org/licenses/>
+ .
+ On Debian systems, the complete text of the GNU General
+ Public License version 2 can be found in "/usr/share/common-licenses/GPL-2".
+
+License: LGPL-2+
+ This library is free software; you can redistribute it and/or
+ modify it under the terms of the GNU Library General Public
+ License as published by the Free Software Foundation; either
+ version 2 of the License, or (at your option) any later version.
+ .
+ This library is distributed in the hope that it will be useful,
+ but WITHOUT ANY WARRANTY; without even the implied warranty of
+ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU
+ Library General Public License for more details.
+ .
+ You should have received a copy of the GNU Library General Public
+ License along with this library. If not, see <http://www.gnu.org/licenses/>
+ .
+ On Debian systems, the complete text of the GNU Library General
+ Public License version 2 can be found in "/usr/share/common-licenses/LGPL-2".
+
+License: GFDL-1.1+
+ Permission is granted to copy, distribute and/or modify this
+ document under the terms of the GNU Free Documentation
+ License (GFDL), Version 1.1 or any later version published
+ by the Free Software Foundation with no Invariant Sections,
+ no Front-Cover Texts, and no Back-Cover Texts.
+ .
+ On Debian systems, the complete text of the GNU Free Documentation License
+ version 1.2 can be found in "/usr/share/common-licenses/GFDL-1.2".

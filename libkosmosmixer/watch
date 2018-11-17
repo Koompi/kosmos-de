@@ -1,0 +1,3 @@
+version=3
+https://git.kramaos.org/libkosmosmixer/ \
+    snapshot/libkosmosmixer-(\d\.(?:[0-9]+|)[0-9]\.\d)\.tar\.xz

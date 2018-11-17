@@ -1,0 +1,6 @@
+etc/
+usr/bin/
+usr/lib/*/pkgconfig/kosmos-default-applications.pc
+usr/lib/*/pkgconfig/kosmos-keybindings.pc
+usr/sbin/
+usr/share/applications/

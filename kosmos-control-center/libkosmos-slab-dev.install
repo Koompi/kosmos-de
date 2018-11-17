@@ -1,0 +1,3 @@
+usr/include/libkosmos-slab/
+usr/lib/*/libkosmos-slab.so
+usr/lib/*/pkgconfig/kosmos-slab.pc

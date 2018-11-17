@@ -1,0 +1,4 @@
+# caja extensions in /usr/lib/*/caja/extensions-2.0/ erroneously trigger
+# debhelper's makeshlibs script
+kosmos-user-share: postinst-has-useless-call-to-ldconfig
+kosmos-user-share: postrm-has-useless-call-to-ldconfig

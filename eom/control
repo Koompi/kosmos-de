@@ -1,0 +1,114 @@
+Source: eom
+Section: graphics
+Priority: optional
+Maintainer: Debian+Ubuntu MATE Packaging Team <debian-kosmos@lists.debian.org>
+Uploaders: Mike Gabriel <sunweaver@debian.org>,
+           John Paul Adrian Glaubitz <glaubitz@physik.fu-berlin.de>,
+           Stefano Karapetsas <stefano@karapetsas.com>,
+           Vangelis Mouhtsis <vangelis@gnugr.org>,
+Standards-Version: 3.9.7
+Homepage: http://www.kramaos.org/
+Vcs-Browser: https://github.com/kosmos-desktop/debian-packages
+Vcs-Git: git://github.com/kosmos-desktop/debian-packages.git
+Build-Depends: debhelper (>= 10),
+               dpkg-dev (>= 1.16.1.1),
+               gobject-introspection,
+               gtk-doc-tools,
+               intltool,
+               libdbus-glib-1-dev,
+               libdconf-dev,
+               libexempi-dev,
+               libexif-dev,
+               libgirepository1.0-dev,
+               libglib2.0-dev,
+               libgtk-3-dev,
+               libjpeg-dev,
+               liblcms2-dev,
+               libkosmos-desktop-dev (>= 1.20),
+               libpeas-dev,
+               librsvg2-dev (>= 2.36.2),
+               libstartup-notification0-dev,
+               libxml2-dev,
+               kosmos-common (>= 1.20),
+               shared-mime-info,
+               x11proto-core-dev,
+               yelp-tools,
+               zlib1g-dev,
+Build-Depends-Indep: libglib2.0-doc,
+                     libgtk-3-doc,
+
+Package: eom
+Architecture: any
+Depends: eom-common (= ${source:Version}),
+         librsvg2-common (>= 2.36.2),
+         kosmos-desktop-common,
+         shared-mime-info,
+         ${misc:Depends},
+         ${shlibs:Depends},
+Breaks: kosmos-image-viewer (<= 1.0.0-1),
+Replaces: kosmos-image-viewer (<= 1.0.0-1),
+Description: Eye of MATE graphics viewer program
+ eom or the Eye of MATE is a simple graphics viewer for the MATE
+ desktop which uses the gdk-pixbuf library. It can deal with large
+ images, and zoom and scroll with constant memory usage. Its goals are
+ simplicity and standards compliance.
+
+Package: eom-common
+Architecture: all
+Depends: ${misc:Depends},
+Breaks: eom (<= 1.6.1-1),
+        kosmos-image-viewer (<= 1.0.0-1),
+Replaces: kosmos-image-viewer (<= 1.0.0-1),
+Description: Eye of MATE graphics viewer program (common files)
+ eom or the Eye of MATE is a simple graphics viewer for the MATE
+ desktop which uses the gdk-pixbuf library. It can deal with large
+ images, and zoom and scroll with constant memory usage. Its goals are
+ simplicity and standards compliance.
+ .
+ This package contains the architecture independent files.
+
+Package: eom-dev
+Section: libdevel
+Architecture: any
+Depends: eom (= ${binary:Version}),
+         ${misc:Depends},
+         gir1.2-eom-1.0 (= ${binary:Version}),
+Breaks: kosmos-image-viewer (<= 1.0.0-1),
+        gir1.2-eom (<< 1.20.0-1~),
+Replaces: kosmos-image-viewer (<= 1.0.0-1),
+          gir1.2-eom (<< 1.20.0-1~),
+Description: Eye of MATE graphics viewer program (development files)
+ eom or the Eye of MATE is a simple graphics viewer for the MATE
+ desktop which uses the gdk-pixbuf library. It can deal with large
+ images, and zoom and scroll with constant memory usage. Its goals are
+ simplicity and standards compliance.
+ .
+ This package contains the development files for building eom plugins.
+
+Package: gir1.2-eom-1.0
+Section: introspection
+Architecture: any
+Depends: ${gir:Depends},
+         ${misc:Depends},
+         ${shlibs:Depends},
+Breaks: gir1.2-eom (<< 1.20.0-1~),
+Replaces: gir1.2-eom (<< 1.20.0-1~),
+Description: GObject introspection data for the eom library
+ eom or the Eye of MATE is a simple graphics viewer for the MATE
+ desktop which uses the gdk-pixbuf library.  It can deal with large
+ images, and zoom and scroll with constant memory usage.  Its goals are
+ simplicity and standards compliance.
+ .
+ This package contains introspection data for eom.
+ .
+ It can be used by packages using the GIRepository format to generate
+ dynamic bindings.
+
+Package: gir1.2-eom
+Section: oldlibs
+Architecture: any
+Depends: ${misc:Depends},
+         gir1.2-eom-1.0 (= ${binary:Version}),
+Description: GObject introspection data for eom (transitional package)
+ This package is a transitional package to gir1.2-eom-1.0. The package
+ can be safely removed.

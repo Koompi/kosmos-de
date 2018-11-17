@@ -1,0 +1,14 @@
+# man pages are created with docbook-to-man and the rendering flaw about hyphens and minus signs is
+# a documented issue (see https://bugs.debian.org/208967)
+kosmos-power-manager-common: hyphen-used-as-minus-sign usr/share/man/man1/kosmos-power-backlight-helper.1.gz:28
+kosmos-power-manager-common: hyphen-used-as-minus-sign usr/share/man/man1/kosmos-power-backlight-helper.1.gz:31
+kosmos-power-manager-common: hyphen-used-as-minus-sign usr/share/man/man1/kosmos-power-backlight-helper.1.gz:34
+kosmos-power-manager-common: hyphen-used-as-minus-sign usr/share/man/man1/kosmos-power-backlight-helper.1.gz:37
+kosmos-power-manager-common: hyphen-used-as-minus-sign usr/share/man/man1/kosmos-power-manager.1.gz:28
+kosmos-power-manager-common: hyphen-used-as-minus-sign usr/share/man/man1/kosmos-power-manager.1.gz:31
+kosmos-power-manager-common: hyphen-used-as-minus-sign usr/share/man/man1/kosmos-power-manager.1.gz:34
+kosmos-power-manager-common: hyphen-used-as-minus-sign usr/share/man/man1/kosmos-power-manager.1.gz:37
+kosmos-power-manager-common: hyphen-used-as-minus-sign usr/share/man/man1/kosmos-power-preferences.1.gz:26
+kosmos-power-manager-common: hyphen-used-as-minus-sign usr/share/man/man1/kosmos-power-preferences.1.gz:29
+kosmos-power-manager-common: hyphen-used-as-minus-sign usr/share/man/man1/kosmos-power-statistics.1.gz:28
+kosmos-power-manager-common: hyphen-used-as-minus-sign usr/share/man/man1/kosmos-power-statistics.1.gz:31

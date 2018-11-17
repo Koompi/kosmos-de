@@ -1,0 +1,48 @@
+Source: kosmos-netbook
+Section: x11
+Priority: optional
+Maintainer: Debian+Ubuntu MATE Packaging Team <debian-kosmos@lists.debian.org>
+Uploaders: Mike Gabriel <sunweaver@debian.org>,
+           John Paul Adrian Glaubitz <glaubitz@physik.fu-berlin.de>,
+           Stefano Karapetsas <stefano@karapetsas.com>,
+           Vangelis Mouhtsis <vangelis@gnugr.org>,
+Build-Depends: debhelper (>= 10),
+               dpkg-dev (>= 1.16.1.1),
+               libdconf-dev,
+               libfakekey-dev,
+               libgtk-3-dev,
+               libkosmos-panel-applet-dev (>= 1.20),
+               libwnck-3-dev,
+               kosmos-common (>= 1.20),
+               yelp-tools,
+Standards-Version: 3.9.7
+Homepage: http://www.kramaos.org/
+Vcs-Browser: https://github.com/kosmos-desktop/debian-packages
+Vcs-Git: git://github.com/kosmos-desktop/debian-packages.git
+
+Package: kosmos-netbook
+Architecture: any
+Depends: kosmos-netbook-common (= ${source:Version}),
+         ${misc:Depends},
+         ${shlibs:Depends},
+Description: MATE utilities for netbooks
+ MATE utilities for netbooks are an applet and a daemon to maximize
+ windows and move their titles on the panel.
+ .
+ Installing these utilities is recommended for netbooks and similar
+ devices with low resolution displays.
+
+Package: kosmos-netbook-common
+Architecture: all
+Depends: ${misc:Depends},
+Replaces: kosmos-netbook (<< 1.9.0),
+Breaks: kosmos-netbook (<< 1.9.0),
+Description: MATE utilities for netbooks (common files)
+ MATE utilities for netbooks are an applet and a daemon to maximize
+ windows and move their titles on the panel.
+ .
+ Installing these utilities is recommended for netbooks and similar
+ devices with low resolution displays.
+ .
+ This package contains the architecture independent files.
+

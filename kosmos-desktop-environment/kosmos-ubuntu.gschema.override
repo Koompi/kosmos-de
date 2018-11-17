@@ -1,0 +1,17 @@
+[org.kosmos.background]
+picture-filename='/usr/share/backgrounds/warty-final-ubuntu.png'
+
+[org.kosmos.interface]
+icon-theme='ubuntu-mono-dark'
+gtk-theme='Ambiance'
+font-name='Ubuntu 10'
+document-font-name='Ubuntu 10'
+monospace-font-name='Ubuntu Mono 12'
+
+[org.kosmos.Marco.general]
+theme='Ambiance'
+titlebar-font='Ubuntu Bold 10'
+
+[org.kosmos.NotificationDaemon]
+theme='slider'
+

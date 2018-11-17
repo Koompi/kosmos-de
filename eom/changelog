@@ -1,0 +1,277 @@
+eom (1.21.0-1) unstable; urgency=medium
+
+  * New upstream development release
+
+ -- Vlad Orlov <monsta@inbox.ru>  Tue, 09 Oct 2018 17:56:39 +0300
+
+eom (1.20.1-1) unstable; urgency=medium
+
+  * New upstream bugfix release
+
+ -- Vlad Orlov <monsta@inbox.ru>  Sat, 23 Jun 2018 14:27:29 +0300
+
+eom (1.20.0-1) unstable; urgency=medium
+
+  * New upstream release
+
+ -- Vlad Orlov <monsta@inbox.ru>  Wed, 07 Feb 2018 13:52:28 +0300
+
+eom (1.19.0-1) unstable; urgency=medium
+
+  * New upstream development release
+
+ -- Vlad Orlov <monsta@inbox.ru>  Wed, 24 Jan 2018 11:47:28 +0300
+
+eom (1.18.3-1) unstable; urgency=medium
+
+  * New upstream bugfix release
+
+ -- Vlad Orlov <monsta@inbox.ru>  Wed, 08 Nov 2017 13:59:53 +0300
+
+eom (1.18.2-1) unstable; urgency=medium
+
+  * New upstream bugfix release
+
+ -- Vlad Orlov <monsta@inbox.ru>  Mon, 08 May 2017 00:31:18 +0300
+
+eom (1.18.1-1) unstable; urgency=medium
+
+  * New upstream bugfix release
+
+ -- Vlad Orlov <monsta@inbox.ru>  Wed, 05 Apr 2017 15:40:55 +0300
+
+eom (1.18.0-1) unstable; urgency=medium
+
+  * New upstream release
+
+ -- Vlad Orlov <monsta@inbox.ru>  Wed, 15 Mar 2017 15:48:02 +0300
+
+eom (1.17.2-1) unstable; urgency=medium
+
+  * New upstream development release
+
+ -- Vlad Orlov <monsta@inbox.ru>  Sat, 07 Jan 2017 14:54:56 +0300
+
+eom (1.17.1-1) unstable; urgency=medium
+
+  * New upstream development release
+
+ -- Vlad Orlov <monsta@inbox.ru>  Sun, 11 Dec 2016 17:51:51 +0300
+
+eom (1.17.0-1) unstable; urgency=medium
+
+  * New upstream development release
+
+ -- Vlad Orlov <monsta@inbox.ru>  Sun, 27 Nov 2016 20:33:53 +0300
+
+eom (1.16.0-1) unstable; urgency=medium
+
+  * New upstream release
+
+ -- Vlad Orlov <monsta@inbox.ru>  Thu, 22 Sep 2016 17:36:33 +0300
+
+eom (1.15.1-1) unstable; urgency=medium
+
+  * New upstream development release
+
+ -- Vlad Orlov <monsta@inbox.ru>  Fri, 09 Sep 2016 13:56:48 +0300
+
+eom (1.15.0-1) unstable; urgency=medium
+
+  * New upstream development release
+
+ -- Vlad Orlov <monsta@inbox.ru>  Wed, 15 Jun 2016 10:49:52 +0300
+
+eom (1.14.1-1) unstable; urgency=medium
+
+  * New upstream bugfix release
+
+ -- Vlad Orlov <monsta@inbox.ru>  Tue, 24 May 2016 10:14:40 +0300
+
+eom (1.14.0-1) unstable; urgency=medium
+
+  * New upstream release
+
+ -- Vlad Orlov <monsta@inbox.ru>  Mon, 11 Apr 2016 11:30:36 +0300
+
+eom (1.13.1-1) unstable; urgency=medium
+
+  * New upstream development release
+
+ -- Vlad Orlov <monsta@inbox.ru>  Wed, 24 Feb 2016 14:01:49 +0300
+
+eom (1.13.0-1) unstable; urgency=medium
+
+  * New upstream development release
+
+ -- Vlad Orlov <monsta@inbox.ru>  Tue, 16 Feb 2016 11:39:14 +0300
+
+eom (1.12.2-1) unstable; urgency=medium
+
+  * New upstream bugfix release
+
+ -- Vlad Orlov <monsta@inbox.ru>  Tue, 16 Feb 2016 10:59:01 +0300
+
+eom (1.12.1-1) unstable; urgency=medium
+
+  * New upstream bugfix release
+
+ -- Vlad Orlov <monsta@inbox.ru>  Mon, 07 Dec 2015 11:15:57 +0300
+
+eom (1.12.0-1) unstable; urgency=medium
+
+  * New upstream release
+
+ -- Clement Lefebvre <root@linuxmint.com>  Tue, 03 Nov 2015 13:16:02 +0000
+
+eom (1.11.0-1) unstable; urgency=medium
+
+  * New upstream development release
+
+ -- Vlad Orlov <monsta@inbox.ru>  Thu, 15 Oct 2015 16:47:22 +0300
+
+eom (1.10.5-1) unstable; urgency=medium
+
+  * New upstream bugfix release
+
+ -- Vlad Orlov <monsta@inbox.ru>  Fri, 09 Oct 2015 14:06:55 +0300
+
+eom (1.10.4-1) unstable; urgency=medium
+
+  * New upstream bugfix release
+
+ -- Martin Wimpress <code@flexion.org>  Mon, 05 Oct 2015 10:21:17 +0100
+
+eom (1.10.3-1) unstable; urgency=medium
+
+  * New upstream bugfix release
+
+ -- Vlad Orlov <monsta@inbox.ru>  Wed, 15 Jul 2015 17:41:07 +0300
+
+eom (1.10.2-1) unstable; urgency=medium
+
+  * New upstream bugfix release
+
+ -- Vlad Orlov <monsta@inbox.ru>  Thu, 25 Jun 2015 18:17:08 +0300
+
+eom (1.10.1-1) unstable; urgency=medium
+
+  * New upstream bugfix release
+
+ -- Vlad Orlov <monsta@inbox.ru>  Thu, 25 Jun 2015 12:38:16 +0300
+
+eom (1.10.0-1) unstable; urgency=medium
+
+  * New upstream release
+
+ -- Vlad Orlov <monsta@inbox.ru>  Tue, 23 Jun 2015 17:01:09 +0300
+
+eom (1.9.90-1) unstable; urgency=low
+
+  * New upstream release candidate
+
+ -- Stefano Karapetsas <stefano@karapetsas.com>  Sun, 05 Apr 2015 19:05:07 +0200
+
+eom (1.9.1-1) unstable; urgency=medium
+
+  * New upstream development release
+
+ -- Stefano Karapetsas <stefano@karapetsas.com>  Thu, 22 Jan 2015 11:14:54 +0100
+
+eom (1.9.0-1) unstable; urgency=low
+
+  * New upstream development release
+
+ -- Stefano Karapetsas <stefano@karapetsas.com>  Tue, 22 Apr 2014 16:10:45 +0200
+
+eom (1.8.0-0) unstable; urgency=low
+
+  * New upstream release
+
+ -- Stefano Karapetsas <stefano@karapetsas.com>  Thu, 06 Mar 2014 23:24:32 +0100
+
+eom (1.7.90-1) unstable; urgency=low
+
+  * New upstream development release
+
+ -- Stefano Karapetsas <stefano@karapetsas.com>  Wed, 19 Feb 2014 20:37:54 +0100
+
+eom (1.7.0-1) unstable; urgency=low
+
+  * New upstream development release.
+
+ -- Stefano Karapetsas <stefano@karapetsas.com>  Sat, 25 Jan 2014 17:45:37 +0100
+
+kosmos-image-viewer (1.6.0-3) unstable; urgency=low
+
+  * Cherry pick patch to fix MateConf convert file.
+
+ -- Stefano Karapetsas <stefano@karapetsas.com>  Sun, 07 Apr 2013 11:45:34 +0200
+
+kosmos-image-viewer (1.6.0-2) unstable; urgency=low
+
+  * eom-common: Add missing /usr/share/MateConf/ folder.
+
+ -- Stefano Karapetsas <stefano@karapetsas.com>  Sat, 06 Apr 2013 21:46:42 +0200
+
+kosmos-image-viewer (1.6.0-1) unstable; urgency=low
+
+  * New upstream release. 
+
+ -- Steve Zesch <stevezesch2@gmail.com>  Sun, 31 Mar 2013 18:14:56 -0400
+
+kosmos-image-viewer (1.5.1-1) unstable; urgency=low
+
+  * New upstream development release.
+
+ -- Stefano Karapetsas <stefano@karapetsas.com>  Sun, 24 Mar 2013 16:23:20 +0100
+
+kosmos-image-viewer (1.5.0-1) unstable; urgency=low
+
+  * New upstream development release.
+  * Remove kosmos-conf dependency.
+
+ -- Stefano Karapetsas <stefano@karapetsas.com>  Sun, 21 Oct 2012 17:59:04 +0200
+
+kosmos-image-viewer (1.4.0-1) unstable; urgency=low
+
+  * Rebuild for precise. 
+
+ -- Steve Zesch <stevezesch2@gmail.com>  Sun, 15 Jul 2012 13:48:05 -0400
+
+kosmos-image-viewer (1.2.0-2) unstable; urgency=low
+
+  * Rebuild for precise. 
+
+ -- Steve Zesch <stevezesch2@gmail.com>  Fri, 30 Mar 2012 20:56:54 -0400
+
+kosmos-image-viewer (1.2.0-1) unstable; urgency=low
+
+  * New upstream release.
+
+ -- Stefano Karapetsas <stefano@karapetsas.com>  Wed, 07 Mar 2012 00:10:40 +0100
+
+kosmos-image-viewer (1.1.0-1) unstable; urgency=low
+
+  * New upstream release.
+
+ -- Stefano Karapetsas <stefano@karapetsas.com>  Mon, 12 Dec 2011 22:58:22 +0100
+
+kosmos-image-viewer (1.0.0-3) unstable; urgency=low
+
+  * Add breaks with old package.
+
+ -- Stefano Karapetsas <stefano@karapetsas.com>  Tue, 29 Nov 2011 04:36:45 +0100
+
+kosmos-image-viewer (1.0.0-2) unstable; urgency=low
+
+  * Split into more packages.
+
+ -- Stefano Karapetsas <stefano@karapetsas.com>  Tue, 29 Nov 2011 00:52:21 +0100
+
+kosmos-image-viewer (1.0.0-1) unstable; urgency=low
+
+  * New upstream release.
+
+ -- Stefano Karapetsas <stefano@karapetsas.com>  Sun, 06 Nov 2011 11:31:08 +0100
+

@@ -1,0 +1,15 @@
+#!/usr/bin/make -f
+
+%:
+	dh $@ 
+
+override_dh_install:
+	dh_install
+	# GSettings overrides for Ubuntu
+ifeq ($(shell dpkg-vendor --is Ubuntu && echo yes),yes)
+	dh_install -pkosmos-desktop-environment-core debian/kosmos-ubuntu.gschema.override /usr/share/glib-2.0/schemas/
+endif
+	# GSettings overrides for Debian
+ifeq ($(shell dpkg-vendor --is Debian && echo yes),yes)
+	dh_install -pkosmos-desktop-environment-core debian/kosmos-debian.gschema.override /usr/share/glib-2.0/schemas/
+endif

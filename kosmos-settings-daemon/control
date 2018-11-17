@@ -1,0 +1,121 @@
+Source: kosmos-settings-daemon
+Section: x11
+Priority: optional
+Maintainer: Debian+Ubuntu MATE Packaging Team <debian-kosmos@lists.debian.org>
+Uploaders: Mike Gabriel <sunweaver@debian.org>,
+           John Paul Adrian Glaubitz <glaubitz@physik.fu-berlin.de>,
+           Stefano Karapetsas <stefano@karapetsas.com>,
+           Vangelis Mouhtsis <vangelis@gnugr.org>,
+Build-Depends: debhelper (>= 10),
+               dpkg-dev (>= 1.16.1.1),
+               intltool,
+               libcanberra-gtk3-dev,
+               libdbus-glib-1-dev,
+               libdconf-dev,
+               libfontconfig1-dev,
+               libglib2.0-dev,
+               libgtk-3-dev,
+               libkosmos-desktop-dev (>= 1.21.1),
+               libkosmoskbd-dev (>= 1.20),
+               libkosmosmixer-dev (>= 1.20),
+               libnotify-dev,
+               libnss3-dev,
+               libpolkit-agent-1-dev,
+               libpolkit-gobject-1-dev,
+               libpulse-dev,
+               libstartup-notification0-dev,
+               libx11-dev,
+               libxext-dev,
+               libxi-dev,
+               libxklavier-dev,
+               libxrandr-dev,
+               libxt-dev,
+               kosmos-common (>= 1.20),
+               x11proto-kb-dev,
+Standards-Version: 3.9.7
+Homepage: http://www.kramaos.org/
+Vcs-Browser: https://github.com/kosmos-desktop/debian-packages
+Vcs-Git: git://github.com/kosmos-desktop/debian-packages.git
+
+Package: kosmos-settings-daemon
+Architecture: any
+Depends: kosmos-desktop-common (>= 1.21.1),
+         kosmos-polkit,
+         kosmos-settings-daemon-common (= ${source:Version}),
+         x11-xserver-utils,
+         ${misc:Depends},
+         ${shlibs:Depends},
+Replaces: kosmos-settings-daemon-gstreamer (<< 1.9.0),
+          kosmos-settings-daemon-pulse (<< 1.9.0),
+Breaks: kosmos-settings-daemon-gstreamer (<< 1.9.0),
+        kosmos-settings-daemon-pulse (<< 1.9.0),
+Description: daemon handling the MATE session settings
+ This package contains the daemon which is responsible for setting the
+ various parameters of a MATE session and the applications that run
+ under it. It handles the following kinds of settings:
+ .
+  * Keyboard: layout, accessibility options, shortcuts, media keys
+  * Clipboard management
+  * Theming: background, icons, GTK+ applications
+  * Cleanup of unused files
+  * Mouse: cursors, speed, accessibility options
+  * Startup of other daemons: screensaver, sound daemon
+  * Typing break
+ .
+ It also sets various application settings through X resources and
+ freedesktop.org XSETTINGS.
+
+Package: kosmos-settings-daemon-common
+Architecture: all
+Depends: ${misc:Depends},
+Replaces: kosmos-settings-daemon-gstreamer (<< 1.9.0),
+          kosmos-settings-daemon-pulse (<< 1.9.0),
+Breaks: kosmos-settings-daemon-gstreamer (<< 1.9.0),
+        kosmos-settings-daemon-pulse (<< 1.9.0),
+Description: daemon handling the MATE session settings (common files)
+ This package contains the daemon which is responsible for setting the
+ various parameters of a MATE session and the applications that run
+ under it. It handles the following kinds of settings:
+ .
+  * Keyboard: layout, accessibility options, shortcuts, media keys
+  * Clipboard management
+  * Theming: background, icons, GTK+ applications
+  * Cleanup of unused files
+  * Mouse: cursors, speed, accessibility options
+  * Startup of other daemons: screensaver, sound daemon
+  * Typing break
+ .
+ It also sets various application settings through X resources and
+ freedesktop.org XSETTINGS.
+ .
+ This package contains the architecture independent files.
+
+Package: kosmos-settings-daemon-dev
+Section: devel
+Priority: extra
+Architecture: any
+Depends: kosmos-settings-daemon (= ${binary:Version}),
+         ${misc:Depends},
+Replaces: kosmos-settings-daemon-gstreamer (<< 1.9.0),
+          kosmos-settings-daemon-pulse (<< 1.9.0),
+Breaks: kosmos-settings-daemon-gstreamer (<< 1.9.0),
+        kosmos-settings-daemon-pulse (<< 1.9.0),
+Description: daemon handling the MATE session settings (development files)
+ This package contains the daemon which is responsible for setting the
+ various parameters of a MATE session and the applications that run
+ under it. It handles the following kinds of settings:
+ .
+  * Keyboard: layout, accessibility options, shortcuts, media keys
+  * Clipboard management
+  * Theming: background, icons, GTK+ applications
+  * Cleanup of unused files
+  * Mouse: cursors, speed, accessibility options
+  * Startup of other daemons: screensaver, sound daemon
+  * Typing break
+ .
+ It also sets various application settings through X resources and
+ freedesktop.org XSETTINGS.
+ .
+ This package contains the development files for building
+ kosmos-settings-daemon plugins.
+

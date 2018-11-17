@@ -1,0 +1,229 @@
+kosmos-sensors-applet (1.21.0-1) unstable; urgency=medium
+
+  * New upstream development release
+
+ -- Vlad Orlov <monsta@inbox.ru>  Tue, 09 Oct 2018 17:56:41 +0300
+
+kosmos-sensors-applet (1.20.2-1) unstable; urgency=medium
+
+  * New upstream bugfix release
+
+ -- Vlad Orlov <monsta@inbox.ru>  Sat, 23 Jun 2018 14:22:50 +0300
+
+kosmos-sensors-applet (1.20.1-1) unstable; urgency=medium
+
+  * New upstream bugfix release
+
+ -- Vlad Orlov <monsta@inbox.ru>  Wed, 28 Feb 2018 11:24:38 +0300
+
+kosmos-sensors-applet (1.20.0-1) unstable; urgency=medium
+
+  * New upstream release
+
+ -- Vlad Orlov <monsta@inbox.ru>  Wed, 07 Feb 2018 13:52:31 +0300
+
+kosmos-sensors-applet (1.19.0-1) unstable; urgency=medium
+
+  * New upstream development release
+
+ -- Vlad Orlov <monsta@inbox.ru>  Wed, 24 Jan 2018 11:47:32 +0300
+
+kosmos-sensors-applet (1.18.3-1) unstable; urgency=medium
+
+  * New upstream bugfix release
+
+ -- Vlad Orlov <monsta@inbox.ru>  Tue, 24 Oct 2017 16:49:52 +0300
+
+kosmos-sensors-applet (1.18.2-1) unstable; urgency=medium
+
+  * New upstream bugfix release
+
+ -- Vlad Orlov <monsta@inbox.ru>  Fri, 12 May 2017 11:32:51 +0300
+
+kosmos-sensors-applet (1.18.1-1) unstable; urgency=medium
+
+  * New upstream bugfix release
+
+ -- Vlad Orlov <monsta@inbox.ru>  Wed, 05 Apr 2017 11:22:15 +0300
+
+kosmos-sensors-applet (1.18.0-1) unstable; urgency=medium
+
+  * New upstream release
+
+ -- Vlad Orlov <monsta@inbox.ru>  Wed, 15 Mar 2017 15:48:05 +0300
+
+kosmos-sensors-applet (1.17.0-1) unstable; urgency=medium
+
+  * New upstream development release
+
+ -- Vlad Orlov <monsta@inbox.ru>  Thu, 24 Nov 2016 18:55:10 +0300
+
+kosmos-sensors-applet (1.16.0-1) unstable; urgency=medium
+
+  * New upstream release
+
+ -- Vlad Orlov <monsta@inbox.ru>  Thu, 22 Sep 2016 17:36:38 +0300
+
+kosmos-sensors-applet (1.15.0-1) unstable; urgency=medium
+
+  * New upstream development release
+
+ -- Vlad Orlov <monsta@inbox.ru>  Wed, 15 Jun 2016 10:49:57 +0300
+
+kosmos-sensors-applet (1.14.0-1) unstable; urgency=medium
+
+  * New upstream release
+
+ -- Vlad Orlov <monsta@inbox.ru>  Mon, 11 Apr 2016 11:30:41 +0300
+
+kosmos-sensors-applet (1.13.0-1) unstable; urgency=medium
+
+  * New upstream development release
+
+ -- Vlad Orlov <monsta@inbox.ru>  Tue, 16 Feb 2016 11:39:19 +0300
+
+kosmos-sensors-applet (1.12.1-1) unstable; urgency=medium
+
+  * New upstream bugfix release
+
+ -- Vlad Orlov <monsta@inbox.ru>  Mon, 07 Dec 2015 11:18:02 +0300
+
+kosmos-sensors-applet (1.12.0-1) unstable; urgency=medium
+
+  * New upstream release
+
+ -- Clement Lefebvre <root@linuxmint.com>  Tue, 03 Nov 2015 13:20:37 +0000
+
+kosmos-sensors-applet (1.11.0-1) unstable; urgency=medium
+
+  * New upstream development release
+
+ -- Vlad Orlov <monsta@inbox.ru>  Thu, 15 Oct 2015 17:00:59 +0300
+
+kosmos-sensors-applet (1.10.4-1) unstable; urgency=medium
+
+  * New upstream bugfix release
+
+ -- Vlad Orlov <monsta@inbox.ru>  Tue, 21 Jul 2015 14:42:31 +0300
+
+kosmos-sensors-applet (1.10.3-1) unstable; urgency=medium
+
+  * New upstream bugfix release
+
+ -- Vlad Orlov <monsta@inbox.ru>  Fri, 10 Jul 2015 14:01:18 +0300
+
+kosmos-sensors-applet (1.10.2-1) unstable; urgency=medium
+
+  * New upstream bugfix release
+
+ -- Vlad Orlov <monsta@inbox.ru>  Thu, 25 Jun 2015 18:16:47 +0300
+
+kosmos-sensors-applet (1.10.1-1) unstable; urgency=medium
+
+  * New upstream bugfix release
+
+ -- Vlad Orlov <monsta@inbox.ru>  Thu, 25 Jun 2015 12:39:07 +0300
+
+kosmos-sensors-applet (1.10.0-1) unstable; urgency=medium
+
+  * New upstream release
+
+ -- Vlad Orlov <monsta@inbox.ru>  Tue, 23 Jun 2015 17:10:31 +0300
+
+kosmos-sensors-applet (1.9.90-1) unstable; urgency=low
+
+  * New upstream release candidate
+
+ -- Stefano Karapetsas <stefano@karapetsas.com>  Sun, 05 Apr 2015 20:02:04 +0200
+
+kosmos-sensors-applet (1.9.0-1) unstable; urgency=low
+
+  * New upstream development release
+
+ -- Stefano Karapetsas <stefano@karapetsas.com>  Tue, 22 Apr 2014 16:13:20 +0200
+
+kosmos-sensors-applet (1.8.0-0) unstable; urgency=low
+
+  * New upstream release
+
+ -- Stefano Karapetsas <stefano@karapetsas.com>  Thu, 06 Mar 2014 23:25:39 +0100
+
+kosmos-sensors-applet (1.7.0-1) unstable; urgency=low
+
+  * New upstream development release.
+
+ -- Stefano Karapetsas <stefano@karapetsas.com>  Sat, 25 Jan 2014 13:22:39 +0100
+
+kosmos-sensors-applet (1.6.0-1) unstable; urgency=low
+
+  * New upstream release.
+
+ -- Stefano Karapetsas <stefano@karapetsas.com>  Mon, 01 Apr 2013 12:08:49 +0200
+
+kosmos-sensors-applet (1.5.2-1) unstable; urgency=low
+
+  * New upstream development release.
+
+ -- Stefano Karapetsas <stefano@karapetsas.com>  Sat, 23 Mar 2013 13:28:26 +0100
+
+kosmos-sensors-applet (1.5.1-1) unstable; urgency=low
+
+  * New upstream development release.
+    * Fix load of save enabled sensors in GSettings.
+    * Fix string compare in hddtemp-plugin.
+    * Added missing includes.
+    * Improved internationalization of translators credits.
+
+ -- Steve Zesch <stevezesch2@gmail.com>  Sun, 20 Jan 2013 16:03:18 -0500
+
+kosmos-sensors-applet (1.5.0-1) unstable; urgency=low
+
+  * New upstream development release.
+  * Remove deprecated dependencies.
+  * Add kosmos-sensors-applet-dbg package.
+
+ -- Stefano Karapetsas <stefano@karapetsas.com>  Sun, 16 Dec 2012 23:47:40 +0100
+
+kosmos-sensors-applet (1.4.0-1) unstable; urgency=low
+
+  * New upstream release. 
+
+ -- Steve Zesch <stevezesch2@gmail.com>  Mon, 16 Jul 2012 11:57:03 -0400
+
+kosmos-sensors-applet (1.2.0-3) unstable; urgency=low
+
+  * Add support for NVIDIA sensors (kosmos-sensors-applet-nvidia package).
+  * Add support for ATI sensors (kosmos-sensors-applet-ati package).
+
+ -- Stefano Karapetsas <stefano@karapetsas.com>  Tue, 08 May 2012 17:31:47 +0200
+
+kosmos-sensors-applet (1.2.0-2) unstable; urgency=low
+
+  * Rebuild for precise. 
+
+ -- Steve Zesch <stevezesch2@gmail.com>  Fri, 30 Mar 2012 21:09:25 -0400
+
+kosmos-sensors-applet (1.2.0-1) unstable; urgency=low
+
+  * New upstream release.
+
+ -- Stefano Karapetsas <stefano@karapetsas.com>  Sun, 11 Mar 2012 17:26:00 +0100
+
+kosmos-sensors-applet (1.1.1-1) unstable; urgency=low
+
+  * New upstream bugfix release.
+  * debian/watch: source is now .xz.
+
+ -- Stefano Karapetsas <stefano@karapetsas.com>  Thu, 26 Jan 2012 00:40:08 +0100
+
+kosmos-sensors-applet (1.1.0-1) unstable; urgency=low
+
+  * New upstream release.
+
+ -- Stefano Karapetsas <stefano@karapetsas.com>  Wed, 14 Dec 2011 00:52:52 +0100
+
+kosmos-sensors-applet (1.0.7-1) unstable; urgency=low
+
+  * Initial release.
+
+ -- Stefano Karapetsas <stefano@karapetsas.com>  Tue, 22 Nov 2011 01:03:32 +0100

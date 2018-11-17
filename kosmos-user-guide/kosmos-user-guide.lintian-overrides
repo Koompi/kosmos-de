@@ -1,0 +1,5 @@
+# we hard-depend on yelp for displaying the kosmos-user-guide
+kosmos-user-guide: desktop-command-not-in-package usr/share/applications/kosmos-user-guide.desktop yelp
+
+# the kosmos-user-guide menu entry is hard-coded into the base of the Applications - Places - *System* menu...
+kosmos-user-guide: desktop-entry-lacks-main-category usr/share/applications/kosmos-user-guide.desktop

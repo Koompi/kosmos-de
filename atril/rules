@@ -1,0 +1,51 @@
+#!/usr/bin/make -f
+
+export DEB_BUILD_MAINT_OPTIONS = hardening=+all
+DPKG_EXPORT_BUILDFLAGS = 1
+include /usr/share/dpkg/buildflags.mk
+
+DHFLAGS=--parallel
+DEB_ATRIL_FLAGS=
+ifeq ($(shell dpkg-vendor --is Debian && echo yes),yes)
+ifeq ($(shell lsb_release -cs),wheezy)
+	DEB_ATRIL_FLAGS=--without-keyring
+endif
+endif
+
+%:
+	dh $@ $(DHFLAGS) --with gir
+
+override_dh_install:
+	rm -rfv debian/tmp/usr/lib/*/*.la
+	rm -rfv debian/tmp/usr/lib/*/caja/extensions-2.0/*.la
+	rm -rfv debian/tmp/usr/lib/*/atril/3/backends/*.la
+	dh_install --fail-missing
+
+override_dh_auto_test:
+	DEB_BUILD_OPTIONS=nocheck dh_auto_test
+
+override_dh_auto_configure:
+	NOCONFIGURE=1 ./autogen.sh
+	dh_auto_configure $(DHFLAGS) -- \
+		--enable-gtk-doc \
+		--enable-djvu \
+		--enable-dvi \
+		--enable-t1lib \
+		--enable-pixbuf \
+		--enable-comics \
+		--enable-introspection \
+		--disable-silent-rules \
+		--disable-static \
+		--libexecdir=/usr/lib/atril \
+		$(DEB_ATRIL_FLAGS)
+
+override_dh_strip:
+	dh_strip -patril --dbgsym-migration='atril-dbg (<< 1.20.0-1~)'
+	dh_strip -plibatrildocument3 --dbgsym-migration='libatrildocument3-dbg (<< 1.20.0-1~)'
+	dh_strip -plibatrilview3 --dbgsym-migration='libatrilview3-dbg (<< 1.20.0-1~)'
+
+override_dh_builddeb:
+	dh_builddeb -- -Zxz -z9
+
+get-orig-source:
+	uscan --noconf --force-download --rename --download-current-version --destdir=..

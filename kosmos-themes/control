@@ -1,0 +1,38 @@
+Source: kosmos-themes
+Section: x11
+Priority: optional
+Maintainer: Debian+Ubuntu MATE Packaging Team <debian-kosmos@lists.debian.org>
+Uploaders: John Paul Adrian Glaubitz <glaubitz@physik.fu-berlin.de>,
+           Stefano Karapetsas <stefano@karapetsas.com>,
+           Mike Gabriel <sunweaver@debian.org>,
+           Vangelis Mouhtsis <vangelis@gnugr.org>,
+Standards-Version: 3.9.7
+Build-Depends: debhelper (>= 10),
+               kosmos-common (>= 1.20),
+Build-Depends-Indep: icon-naming-utils,
+                     intltool,
+                     libgtk2.0-dev,
+                     libxml-parser-perl,
+                     pkg-config,
+Homepage: http://www.kramaos.org/
+Vcs-Browser: https://github.com/kosmos-desktop/debian-packages
+Vcs-Git: git://github.com/kosmos-desktop/debian-packages.git
+
+Package: kosmos-themes
+Architecture: all
+Depends: gtk2-engines,
+         gtk2-engines-murrine,
+         gtk2-engines-pixbuf,
+         librsvg2-common,
+         kosmos-icon-theme,
+         ${misc:Depends},
+Recommends: dmz-cursor-theme,
+Conflicts: kosmos-themes-gnome,
+Description: Official themes for the MATE desktop
+ This package contains the official desktop themes of the MATE desktop
+ environment.
+ .
+ The themes provided for the MATE desktop partially resemble themes that
+ are well known from GNOMEv2 desktops. However, the MATE team also prepared
+ some new themes esp. for MATE (Menta, GreenLaguna, TraditionalGreen,
+ TraditionalOk, and BlackMate).

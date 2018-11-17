@@ -1,0 +1,3 @@
+version=3
+https://git.kramaos.org/kosmos-themes/ \
+    snapshot/kosmos-themes-(\d\.(?:[0-9]+|)[0-9]\.(?:[0-9]+|)[0-9])\.tar\.xz

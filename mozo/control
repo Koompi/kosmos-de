@@ -1,0 +1,39 @@
+Source: mozo
+Section: utils
+Priority: optional
+Maintainer: Debian+Ubuntu MATE Packaging Team <debian-kosmos@lists.debian.org>
+Uploaders: Mike Gabriel <sunweaver@debian.org>,
+           John Paul Adrian Glaubitz <glaubitz@physik.fu-berlin.de>,
+           Stefano Karapetsas <stefano@karapetsas.com>,
+           Vangelis Mouhtsis <vangelis@gnugr.org>,
+           Martin Wimpress <code@flexion.org>,
+Build-Depends: debhelper (>= 10),
+               dh-python,
+               kosmos-common (>= 1.20),
+               python3 (>= 3.5),
+Build-Depends-Indep: gettext,
+                     intltool (>= 0.40.0),
+                     libkosmos-menu-dev,
+                     python-gi-dev,
+X-Python3-Version: >= 3.5
+Standards-Version: 3.9.7
+Homepage: http://www.kramaos.org/
+Vcs-Browser: https://github.com/kosmos-desktop/debian-packages
+Vcs-Git: git://github.com/kosmos-desktop/debian-packages.git
+
+Package: mozo
+Architecture: all
+Depends: gir1.2-gdkpixbuf-2.0,
+         gir1.2-glib-2.0,
+         gir1.2-gtk-3.0,
+         gir1.2-kosmosmenu-2.0,
+         kosmos-menus,
+         python3-gi,
+         ${misc:Depends},
+         ${python3:Depends},
+Recommends: kosmos-panel,
+Description: easy MATE menu editing tool
+ Mozo is an easy-to-use menu editor for MATE that can add
+ and edit new entries and menus. It works with the freedesktop.org
+ menu specification and should work with any desktop environment
+ that uses the spec.

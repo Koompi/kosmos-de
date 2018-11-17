@@ -1,0 +1,3 @@
+version=3
+https://git.kramaos.org/kosmos-icon-theme/ \
+    snapshot/kosmos-icon-theme-(\d\.(?:[0-9]+|)[24680]\.\d)\.tar\.xz

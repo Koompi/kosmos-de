@@ -1,0 +1,32 @@
+#!/usr/bin/make -f
+
+DHFLAGS=--parallel
+
+export DEB_BUILD_MAINT_OPTIONS = hardening=+all
+DPKG_EXPORT_BUILDFLAGS = 1
+include /usr/share/dpkg/buildflags.mk
+
+%:
+	dh $@ $(DHFLAGS)
+
+override_dh_install:
+	rm -rfv debian/tmp/usr/lib/*/*.a
+	rm -rfv debian/tmp/usr/lib/*/*.la
+	rm -rfv debian/tmp/usr/lib/*/kosmos-sensors-applet/plugins/*.a
+	rm -rfv debian/tmp/usr/lib/*/kosmos-sensors-applet/plugins/*.la
+	dh_install --fail-missing
+
+override_dh_auto_configure:
+	NOCONFIGURE=1 ./autogen.sh
+	dh_auto_configure $(DHFLAGS) -- \
+		--libexecdir=/usr/lib/kosmos-sensors-applet \
+		--disable-silent-rules \
+		--with-nvidia=yes
+
+override_dh_strip:
+	dh_strip -pkosmos-sensors-applet --dbgsym-migration='kosmos-sensors-applet-dbg (<< 1.20.0-1~)'
+	dh_strip -pkosmos-sensors-applet-nvidia --dbgsym-migration='kosmos-sensors-applet-nvidia-dbg (<< 1.20.0-1~)'
+	dh_strip -plibkosmos-sensors-applet-plugin0 --dbgsym-migration='libkosmos-sensors-applet-plugin0-dbg (<< 1.20.0-1~)'
+
+get-orig-source:
+	uscan --noconf --force-download --rename --download-current-version --destdir=..
